@@ -1,8 +1,9 @@
+
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
 */
-import styled, { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 export const theme = {
     colors: {
@@ -87,7 +88,7 @@ export const theme = {
 
 type ThemeType = typeof theme;
 
-// Augment styled-components using single quotes to resolve module augmentation issues.
+// Augment styled-components to provide full type safety for the theme object.
 declare module 'styled-components' {
   export interface DefaultTheme extends ThemeType {}
 }
