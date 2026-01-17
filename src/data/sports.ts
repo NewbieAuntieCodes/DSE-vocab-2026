@@ -1,0 +1,300 @@
+import React from 'react';
+import { WordList } from '../types';
+
+export const sportsWordList: WordList = {
+  id: 'dse-sports',
+  title: 'DSE口语 - 运动&健康类',
+  description: '讨论体育活动、健康生活方式和团队合作的词汇。',
+  illustration: () => null,
+  theme: 'learn',
+  category: 'dse',
+  emoji: '🏀',
+  words: [
+    { word: 'stretch', emoji: '🤸', phonetic: '/stretʃ/', definition: '伸展，舒展', example: 'It\'s important to stretch before you exercise.' },
+    { word: 'kick', emoji: '⚽', phonetic: '/kɪk/', definition: '踢', example: 'He can kick the ball really hard.' },
+    { word: 'score', emoji: '🎯', phonetic: '/skɔːr/', definition: '得分', example: 'Our team needs to score another goal to win.' },
+    { word: 'catch', emoji: '⚾', phonetic: '/kætʃ/', definition: '接住', example: 'The player made an amazing catch to save the game.' },
+    { word: 'crawl', emoji: '👶', phonetic: '/krɔːl/', definition: '爬行', example: 'He had to crawl through the tunnel.' },
+    { word: 'hit', emoji: '🏏', phonetic: '/hɪt/', definition: '击打', example: 'She hit the ball over the net.' },
+    { word: 'opponent', emoji: '🤺', phonetic: '/əˈpoʊnənt/', definition: '对手', example: 'You should never underestimate your opponent.' },
+    { word: 'referee', emoji: '🚩', phonetic: '/ˌrefəˈriː/', definition: '裁判', example: 'The referee blew the whistle to stop the play.' },
+    { word: 'tournament', emoji: '🏆', phonetic: '/ˈtʊrnəmənt/', definition: '锦标赛', example: 'Teams from all over the world compete in the tournament.' },
+    { word: 'muscle', emoji: '💪', phonetic: '/ˈmʌsl/', definition: '肌肉', example: 'Lifting weights helps to build muscle.' },
+    { word: 'dopamine', emoji: '😊', phonetic: '/ˈdoʊpəmiːn/', definition: '多巴胺', example: 'Exercise can increase the levels of dopamine in your brain.' },
+    { word: 'endorphin', emoji: '😄', phonetic: '/enˈdɔːrfɪn/', definition: '内啡肽', example: 'Running releases endorphins, which can make you feel happy.' },
+    { word: 'release', emoji: '😌', phonetic: '/rɪˈliːs/', definition: '释放', example: 'Physical activity is a good way to release stress.' },
+    { 
+      word: 'helmet', 
+      emoji: '⛑️',
+      phonetic: '/ˈhelmɪt/', 
+      definition: '头盔', 
+      example: 'It\'s important to wear a helmet when you ride a bike.'
+    },
+    { 
+      word: 'regular', 
+      emoji: '🔄',
+      phonetic: '/ˈreɡjələr/', 
+      definition: '定期的；有规律的', 
+      example: 'Regular exercise is good for your health.'
+    },
+    { 
+      word: 'routine', 
+      emoji: '📋',
+      phonetic: '/ruːˈtiːn/', 
+      definition: '常规；例行公事', 
+      example: 'My morning routine includes jogging and a healthy breakfast.'
+    },
+    { 
+      word: 'self-discipline', 
+      emoji: '🧘',
+      phonetic: '/ˌselfˈdɪsəplɪn/', 
+      definition: '自律', 
+      example: 'Becoming a professional athlete requires a lot of self-discipline.'
+    },
+    { 
+      word: 'physical', 
+      emoji: '💪', 
+      phonetic: '/ˈfɪzɪkl/', 
+      definition: '身体的；物质的', 
+      example: 'Regular physical activity is essential for good health.' 
+    },
+    { 
+      word: 'physical health', 
+      emoji: '❤️‍🩹', 
+      phonetic: '/ˈfɪzɪkl helθ/', 
+      definition: '身体健康', 
+      example: 'A balanced diet is crucial for maintaining good physical health.' 
+    },
+    { 
+      word: 'mental', 
+      emoji: '🧠', 
+      phonetic: '/ˈmentl/', 
+      definition: '精神的；脑力的', 
+      example: 'It\'s important to take care of your mental well-being.' 
+    },
+    { 
+      word: 'mental health', 
+      emoji: '🧘‍♀️', 
+      phonetic: '/ˈmentl helθ/', 
+      definition: '心理健康', 
+      example: 'Exercise is beneficial for both physical and mental health.' 
+    },
+    { 
+      word: 'strengthen', 
+      emoji: '🏋️', 
+      phonetic: '/ˈstreŋθn/', 
+      definition: '加强；巩固', 
+      example: 'These exercises will help strengthen your core muscles.' 
+    },
+    { 
+      word: 'breath', 
+      emoji: '😮‍💨', 
+      phonetic: '/breθ/', 
+      definition: '呼吸；气息', 
+      example: 'Take a deep breath and relax before you start.' 
+    },
+    { 
+      word: 'emotion', 
+      emoji: '😊😢', 
+      phonetic: '/ɪˈmoʊʃn/', 
+      definition: '情感；情绪', 
+      example: 'He finds it hard to express his emotions.' 
+    },
+    { 
+      word: 'mood', 
+      emoji: '😃😠', 
+      phonetic: '/muːd/', 
+      definition: '心情；情绪', 
+      example: 'Listening to music can often improve my mood.' 
+    },
+    {
+      word: 'fast food',
+      emoji: '🍔',
+      phonetic: '/fæst fuːd/',
+      definition: '快餐',
+      example: 'Eating too much fast food can lead to health problems.'
+    },
+    {
+      word: 'obesity',
+      emoji: '⚖️',
+      phonetic: '/oʊˈbiːsəti/',
+      definition: '肥胖症',
+      example: 'Obesity is a major public health issue in many countries.'
+    },
+    {
+      word: 'stomach',
+      emoji: '🤢',
+      phonetic: '/ˈstʌmək/',
+      definition: '胃',
+      example: 'He had a pain in his stomach after eating the spicy food.'
+    },
+    {
+      word: 'stomachache',
+      emoji: '😫',
+      phonetic: '/ˈstʌməkeɪk/',
+      definition: '胃痛',
+      example: 'I have a terrible stomachache.'
+    },
+    {
+      word: 'sports competition',
+      emoji: '🏆',
+      phonetic: '/spɔːrts ˌkɒmpəˈtɪʃn/',
+      definition: '体育比赛',
+      example: 'She is training hard for the upcoming sports competition.'
+    },
+    {
+      word: 'collaborate',
+      emoji: '🤝',
+      phonetic: '/kəˈlæbəreɪt/',
+      definition: '合作',
+      example: 'The two companies will collaborate on the new project.'
+    },
+    {
+      word: 'maintain',
+      emoji: '🛠️',
+      phonetic: '/meɪnˈteɪn/',
+      definition: '维持；保持',
+      example: 'It\'s important to maintain a healthy weight.'
+    },
+    {
+      word: 'illness',
+      emoji: '🤒',
+      phonetic: '/ˈɪlnəs/',
+      definition: '疾病',
+      example: 'He missed school due to a serious illness.'
+    },
+    {
+      word: 'participate',
+      emoji: '🙋‍♂️',
+      phonetic: '/pɑːrˈtɪsɪpeɪt/',
+      definition: '参加',
+      example: 'Everyone is encouraged to participate in the discussion.'
+    },
+    {
+      word: 'teamwork',
+      emoji: '🧑‍🤝‍🧑',
+      phonetic: '/ˈtiːmwɜːrk/',
+      definition: '团队合作',
+      example: 'Teamwork is essential for the success of this project.'
+    },
+    {
+      word: 'boost',
+      emoji: '🚀',
+      phonetic: '/buːst/',
+      definition: '增强；提高',
+      example: 'Regular exercise can boost your energy levels.'
+    },
+    {
+      word: 'immunity',
+      emoji: '🛡️',
+      phonetic: '/ɪˈmjuːnəti/',
+      definition: '免疫力',
+      example: 'A healthy diet helps to build up your immunity.'
+    },
+    {
+      word: 'immune system',
+      emoji: '🦠',
+      phonetic: '/ɪˈmjuːn ˈsɪstəm/',
+      definition: '免疫系统',
+      example: 'Vitamin C is known to support the immune system.'
+    },
+    {
+      word: 'reduce',
+      emoji: '📉',
+      phonetic: '/rɪˈdjuːs/',
+      definition: '减少',
+      example: 'We need to reduce our carbon emissions to fight climate change.'
+    },
+    {
+      word: 'rock climbing',
+      emoji: '🧗‍♀️',
+      phonetic: '/rɒk ˈklaɪmɪŋ/',
+      definition: '攀岩',
+      example: 'Rock climbing is a great way to build strength and confidence.'
+    },
+    {
+      word: 'strength',
+      emoji: '💪',
+      phonetic: '/streŋθ/',
+      definition: '力量',
+      example: 'He has the physical strength to lift heavy weights.'
+    },
+    {
+      word: 'brave',
+      emoji: '🦁',
+      phonetic: '/breɪv/',
+      definition: '勇敢的',
+      example: 'It was brave of the climber to attempt the difficult route.'
+    },
+    {
+      word: 'athlete',
+      emoji: '🏃‍♂️',
+      phonetic: '/ˈæθliːt/',
+      definition: '运动员',
+      example: 'She is a professional athlete who competes internationally.'
+    },
+    {
+      word: 'sports outfit',
+      emoji: '👕',
+      phonetic: '/spɔːrts ˈaʊtfɪt/',
+      definition: '运动服',
+      example: 'I need to buy a new sports outfit for my yoga class.'
+    },
+    {
+      word: 'running shoes',
+      emoji: '👟',
+      phonetic: '/ˈrʌnɪŋ ʃuːz/',
+      definition: '跑鞋',
+      example: 'A good pair of running shoes is important to prevent injuries.'
+    },
+    {
+      word: 'trainers',
+      emoji: '👟',
+      phonetic: '/ˈtreɪnərz/',
+      definition: '(英式)运动鞋',
+      example: 'He bought a new pair of trainers for playing basketball.'
+    },
+    {
+      word: 'injury',
+      emoji: '🤕',
+      phonetic: '/ˈɪndʒəri/',
+      definition: '受伤',
+      example: 'He suffered a knee injury while playing football and had to rest.'
+    },
+    {
+      word: 'sports uniform',
+      emoji: 'ユニフォーム',
+      phonetic: '/spɔːrts ˈjuːnɪfɔːrm/',
+      definition: '运动制服',
+      example: 'The whole team wore their new sports uniform for the match.'
+    },
+    {
+      word: 'united',
+      emoji: '🤝',
+      phonetic: '/juˈnaɪtɪd/',
+      definition: '团结的',
+      example: 'The team was united in their goal to win the championship.'
+    },
+    {
+      word: 'audience',
+      emoji: '👏',
+      phonetic: '/ˈɔːdiəns/',
+      definition: '观众',
+      example: 'The audience cheered loudly when their team scored a goal.'
+    },
+    {
+      word: 'yoga poses',
+      emoji: '🧘‍♀️',
+      phonetic: '/ˈjoʊɡə poʊzɪz/',
+      definition: '瑜伽姿势',
+      example: 'She is learning some new and challenging yoga poses to improve her flexibility.'
+    },
+    {
+      word: 'flexible',
+      emoji: '🤸‍♀️',
+      phonetic: '/ˈfleksəbl/',
+      definition: '灵活的',
+      example: 'Doing yoga can help you become more flexible.'
+    }
+  ],
+};
