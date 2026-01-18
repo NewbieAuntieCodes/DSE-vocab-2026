@@ -3,7 +3,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
 */
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 export const theme = {
     colors: {
@@ -89,7 +89,9 @@ export const theme = {
 type ThemeType = typeof theme;
 
 // Augment styled-components to provide full type safety for the theme object.
-declare module 'styled-components' {
+// Use a default import above to ensure the module is found by the TypeScript compiler.
+// Double quotes for the module name can help in certain linting or compilation environments.
+declare module "styled-components" {
   export interface DefaultTheme extends ThemeType {}
 }
 
