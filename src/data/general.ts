@@ -1,5 +1,114 @@
+
 import React from 'react';
-import { WordList } from '../types';
+import { WordList, Word } from '../types';
+
+export const word_annual: Word = { 
+  word: 'annual', 
+  emoji: '📅', 
+  phonetic: '/ˈænjuəl/', 
+  definition: '每年的；年度的', 
+  example: 'The company holds an annual meeting every summer.',
+  category: 'basic'
+};
+
+export const word_spacious: Word = { 
+  word: 'spacious', 
+  emoji: '🏞️', 
+  phonetic: '/ˈspeɪʃəs/', 
+  definition: '宽敞的', 
+  example: 'The hotel room was spacious and comfortable.',
+  category: 'advanced'
+};
+
+export const word_insecure: Word = { 
+  word: 'insecure', 
+  emoji: '😟', 
+  phonetic: '/ˌɪnsɪˈkjʊər/', 
+  definition: '不安全的；没信心的', 
+  example: 'He felt insecure about his ability to do the job.',
+  category: 'advanced'
+};
+
+export const word_maturity: Word = { 
+  word: 'maturity', 
+  emoji: '🌳', 
+  phonetic: '/məˈtʃʊərəti/', 
+  definition: '成熟', 
+  example: 'He showed great maturity in dealing with the situation.',
+  category: 'advanced'
+};
+
+export const word_recommend: Word = {
+  word: 'recommend',
+  emoji: '👍',
+  phonetic: '/ˌrekəˈmend/',
+  definition: '推荐',
+  example: 'Could you recommend a good Italian restaurant?',
+  category: 'basic'
+};
+
+export const word_inexpensive: Word = {
+  word: 'inexpensive',
+  emoji: '🪙',
+  phonetic: '/ˌɪnɪkˈspensɪv/',
+  definition: '便宜的；不贵的',
+  example: 'There are many inexpensive ways to have fun in the city.',
+  category: 'basic'
+};
+
+export const word_regularly: Word = {
+  word: 'regularly',
+  emoji: '🔄',
+  phonetic: '/ˈreɡjələrli/',
+  definition: '定期地',
+  example: 'It is important to exercise regularly.',
+  category: 'basic'
+};
+
+export const word_exchange: Word = {
+  word: 'exchange',
+  emoji: '🔄',
+  phonetic: '/ɪksˈtʃeɪndʒ/',
+  definition: '交流；交换',
+  example: 'Cultural exchange programs help broaden your horizons.',
+  category: 'basic'
+};
+
+export const word_frequently: Word = {
+  word: 'frequently',
+  emoji: '📉',
+  phonetic: '/ˈfriːkwəntli/',
+  definition: '频繁地',
+  example: 'This problem occurs frequently during the winter.',
+  category: 'basic'
+};
+
+export const word_positive: Word = {
+  word: 'positive',
+  emoji: '➕',
+  phonetic: '/ˈpɒzətɪv/',
+  definition: '积极的',
+  example: 'A positive attitude can help you achieve your goals.',
+  category: 'basic'
+};
+
+export const word_negative: Word = {
+  word: 'negative',
+  emoji: '➖',
+  phonetic: '/ˈneɡətɪv/',
+  definition: '消极的',
+  example: 'Negative thinking can hinder your progress.',
+  category: 'basic'
+};
+
+export const word_unfamiliar: Word = {
+  word: 'unfamiliar',
+  emoji: '❓',
+  phonetic: '/ˌʌnfəˈmɪliər/',
+  definition: '不熟悉的',
+  example: 'The surroundings were unfamiliar to him.',
+  category: 'basic'
+};
 
 export const generalWordList: WordList = {
   id: 'general-topics',
@@ -10,7 +119,6 @@ export const generalWordList: WordList = {
   category: 'dse',
   emoji: '🌐',
   words: [
-    // 基础词汇 (Basic Vocabulary)
     { 
       word: 'knowledge', 
       emoji: '🧠', 
@@ -27,14 +135,7 @@ export const generalWordList: WordList = {
       example: 'Volunteering helps to build a strong community.',
       category: 'basic'
     },
-    { 
-      word: 'annual', 
-      emoji: '📅', 
-      phonetic: '/ˈænjuəl/', 
-      definition: '每年的；年度的', 
-      example: 'The company holds an annual meeting every summer.',
-      category: 'basic'
-    },
+    word_annual,
     { 
       word: 'favour', 
       emoji: '🤝', 
@@ -91,8 +192,6 @@ export const generalWordList: WordList = {
       example: 'Wash your hands regularly to prevent the spread of the virus.',
       category: 'basic'
     },
-
-    // 进阶词汇 (Advanced Vocabulary)
     { 
       word: 'curiosity', 
       emoji: '🤔', 
@@ -109,14 +208,7 @@ export const generalWordList: WordList = {
       example: 'Winning the competition was a great achievement.',
       category: 'advanced'
     },
-    { 
-      word: 'spacious', 
-      emoji: '🏞️', 
-      phonetic: '/ˈspeɪʃəs/', 
-      definition: '宽敞的', 
-      example: 'The hotel room was spacious and comfortable.',
-      category: 'advanced'
-    },
+    word_spacious,
     { 
       word: 'strategy', 
       emoji: '♟️', 
@@ -125,14 +217,7 @@ export const generalWordList: WordList = {
       example: 'We need to develop a clear strategy for our business.',
       category: 'advanced'
     },
-    { 
-      word: 'insecure', 
-      emoji: '😟', 
-      phonetic: '/ˌɪnsɪˈkjʊər/', 
-      definition: '不安全的；没信心的', 
-      example: 'He felt insecure about his ability to do the job.',
-      category: 'advanced'
-    },
+    word_insecure,
     { 
       word: 'mature', 
       emoji: '🌳', 
@@ -173,5 +258,14 @@ export const generalWordList: WordList = {
       example: 'She has an irritating habit of interrupting people.',
       category: 'advanced'
     },
+    word_recommend,
+    word_inexpensive,
+    word_regularly,
+    word_exchange,
+    word_frequently,
+    word_positive,
+    word_negative,
+    word_unfamiliar,
+    word_maturity
   ],
 };

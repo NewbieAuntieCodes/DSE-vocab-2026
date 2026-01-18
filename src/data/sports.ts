@@ -11,10 +11,30 @@ export const word_strength: Word = {
   category: 'basic'
 };
 
+// Fix: Added category: 'basic' to match the intended visual style
+export const word_flexible: Word = { 
+  word: 'flexible', 
+  emoji: '🤸‍♀️', 
+  phonetic: '/ˈfleksəbl/', 
+  definition: '灵活的', 
+  example: 'Doing yoga can help you become more flexible.',
+  category: 'basic'
+};
+
+// Fix: Exporting word_emotional to resolve Module '"../sports"' has no exported member 'word_emotional' error.
+export const word_emotional: Word = { 
+  word: 'emotional', 
+  emoji: '😊😢', 
+  phonetic: '/ɪˈmoʊʃnəl/', 
+  definition: '情绪化的；情感的', 
+  example: 'It was a very emotional moment for the whole family.',
+  category: 'basic'
+};
+
 export const sportsWordList: WordList = {
   id: 'dse-sports',
   title: 'DSE口语 - 运动&健康类',
-  description: '讨论体育活动、健康生活方式和团队合作的词汇。',
+  description: '讨论体育活动、健康生活方式 and 团队合作的词汇。',
   illustration: () => null,
   theme: 'learn',
   category: 'dse',
@@ -44,6 +64,7 @@ export const sportsWordList: WordList = {
     { word: 'strengthen', emoji: '🏋️', phonetic: '/ˈstreŋθn/', definition: '加强；巩固', example: 'These exercises will help strengthen your core muscles.' },
     { word: 'breath', emoji: '😮‍💨', phonetic: '/breθ/', definition: '呼吸；气息', example: 'Take a deep breath and relax before you start.' },
     { word: 'emotion', emoji: '😊😢', phonetic: '/ɪˈmoʊʃn/', definition: '情感；情绪', example: 'He finds it hard to express his emotions.' },
+    word_emotional,
     { word: 'mood', emoji: '😃😠', phonetic: '/muːd/', definition: '心情；情绪', example: 'Listening to music can often improve my mood.' },
     { word: 'fast food', emoji: '🍔', phonetic: '/fæst fuːd/', definition: '快餐', example: 'Eating too much fast food can lead to health problems.' },
     { word: 'obesity', emoji: '⚖️', phonetic: '/oʊˈbiːsəti/', definition: '肥胖症', example: 'Obesity is a major public health issue in many countries.' },
@@ -71,6 +92,6 @@ export const sportsWordList: WordList = {
     { word: 'united', emoji: '🤝', phonetic: '/juˈnaɪtɪd/', definition: '团结的', example: 'The team was united in their goal to win the championship.' },
     { word: 'audience', emoji: '👏', phonetic: '/ˈɔːdiəns/', definition: '观众', example: 'The audience cheered loudly when their team scored a goal.' },
     { word: 'yoga poses', emoji: '🧘‍♀️', phonetic: '/ˈjoʊɡə poʊzɪz/', definition: '瑜伽姿势', example: 'She is learning some new and challenging yoga poses to improve her flexibility.' },
-    { word: 'flexible', emoji: '🤸‍♀️', phonetic: '/ˈfleksəbl/', definition: '灵活的', example: 'Doing yoga can help you become more flexible.' }
+    word_flexible
   ],
 };

@@ -11,6 +11,96 @@ export const word_overcome: Word = {
   category: 'basic'
 };
 
+export const word_stranger: Word = {
+  word: 'stranger',
+  emoji: '👤',
+  phonetic: '/ˈstreɪndʒər/',
+  definition: '陌生人',
+  example: 'It\'s not always safe to talk to a stranger.',
+  category: 'basic'
+};
+
+export const word_first_impression: Word = {
+  word: 'first impression',
+  emoji: '✨',
+  phonetic: '/fɜːrst ɪmˈpreʃn/',
+  definition: '第一印象',
+  example: 'You only get one chance to make a first impression.',
+  category: 'basic'
+};
+
+export const word_encouragement: Word = {
+  word: 'encouragement',
+  emoji: '👏',
+  phonetic: '/ɪnˈkʌrɪdʒmənt/',
+  definition: '鼓励',
+  example: 'A little encouragement can go a long way.',
+  category: 'basic'
+};
+
+export const word_reunion: Word = {
+  word: 'reunion',
+  emoji: '🤝',
+  phonetic: '/ˌriːˈjuːniən/',
+  definition: '团聚；重聚',
+  example: 'We are planning a family reunion next summer.',
+  category: 'basic'
+};
+
+export const word_meet_ups: Word = {
+  word: 'meet-ups',
+  emoji: '☕',
+  phonetic: '/miːt ʌps/',
+  definition: '聚会；见面',
+  example: 'Regular meet-ups help friends stay close.',
+  category: 'basic'
+};
+
+export const word_stay_in_touch: Word = {
+  word: 'stay in touch',
+  emoji: '📱',
+  phonetic: '/steɪ ɪn tʌtʃ/',
+  definition: '保持联系',
+  example: 'Let\'s stay in touch after we graduate.',
+  category: 'basic'
+};
+
+export const word_anxiety: Word = {
+  word: 'anxiety',
+  emoji: '😰',
+  phonetic: '/æŋˈzaɪəti/',
+  definition: '焦虑；担心',
+  example: 'Public speaking often causes a lot of anxiety.',
+  category: 'advanced'
+};
+
+export const word_member: Word = {
+  word: 'member',
+  emoji: '🆔',
+  phonetic: '/ˈmembər/',
+  definition: '成员',
+  example: 'He is a new member of our team.',
+  category: 'basic'
+};
+
+export const word_avoidant_behavior: Word = {
+  word: 'avoidant behavior',
+  emoji: '🚶‍♂️',
+  phonetic: '/əˈvɔɪdənt bɪˈheɪvjər/',
+  definition: '逃避行为',
+  example: 'Avoidant behavior can prevent people from solving their problems.',
+  category: 'advanced'
+};
+
+export const word_refuse: Word = {
+  word: 'refuse',
+  emoji: '🙅‍♂️',
+  phonetic: '/rɪˈfjuːz/',
+  definition: '拒绝',
+  example: 'He had to refuse the offer because he was too busy.',
+  category: 'basic'
+};
+
 export const socialWordList: WordList = {
   id: 'dse-social',
   title: 'DSE口语 - 社交类',
@@ -35,11 +125,20 @@ export const socialWordList: WordList = {
     { word: 'shyness', emoji: '😊', phonetic: '/ˈʃaɪnəs/', definition: '害羞；靦腆', example: 'She is trying to overcome her shyness by joining a public speaking club.' },
     { word: 'confidence', emoji: '😎', phonetic: '/ˈkɒnfɪdəns/', definition: '自信', example: 'Having confidence in yourself is key to success.' },
     { word: 'chat with', emoji: '💬', phonetic: '/tʃæt wɪð/', definition: '与...聊天', example: 'I like to chat with my friends online in the evening.' },
-    { word: 'stranger', emoji: '👤', phonetic: '/ˈstreɪndʒər/', definition: '陌生人', example: 'It\'s not always safe to talk to a stranger.' },
+    word_stranger,
     { word: 'stay calm', emoji: '😌', phonetic: '/steɪ kɑːm/', definition: '保持冷静', example: 'In an emergency, it\'s important to stay calm and think clearly.' },
     { word: 'appearance', emoji: '👕', phonetic: '/əˈpɪərəns/', definition: '外貌；外观', example: 'His smart appearance helped him make a good first impression.' },
     { word: 'role model', emoji: '🌟', phonetic: '/ˈroʊl ˌmɒdl/', definition: '榜样', example: 'Many athletes are positive role models for young people.' },
     { word: 'inspire', emoji: '💡', phonetic: '/ɪnˈspaɪər/', definition: '激励；鼓舞', example: 'His story of overcoming adversity inspired millions.' },
-    { word: 'recognize', emoji: '👀', phonetic: '/ˈrekəɡnaɪz/', definition: '认出；承认', example: 'It is important to recognize the contributions of others.' }
+    { word: 'recognize', emoji: '👀', phonetic: '/ˈrekəɡnaɪz/', definition: '认出；承认', example: 'It is important to recognize the contributions of others.' },
+    word_first_impression,
+    word_encouragement,
+    word_reunion,
+    word_meet_ups,
+    word_stay_in_touch,
+    word_anxiety,
+    word_member,
+    word_avoidant_behavior,
+    word_refuse
   ],
 };
