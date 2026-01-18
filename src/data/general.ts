@@ -2,6 +2,16 @@
 import React from 'react';
 import { WordList, Word } from '../types';
 
+/**
+ * 通用词库：仅保留无法明确归类到特定话题（如学习、社交、环保）的跨场景高频词。
+ * 已搬迁词汇索引：
+ * - 学习类 (learning.ts): knowledge, curiosity, achievement, strategy, practical
+ * - 社会类 (society.ts): community
+ * - 社交类 (social.ts): passion, favour, annoying, irritating, have huge influence on
+ * - 娱乐类 (entertainment.ts): reviews
+ * - 环保类 (environmental.ts): virus
+ */
+
 export const word_annual: Word = { 
   word: 'annual', 
   emoji: '📅', 
@@ -110,64 +120,26 @@ export const word_unfamiliar: Word = {
   category: 'basic'
 };
 
+export const word_available: Word = { 
+  word: 'available', 
+  emoji: '✅', 
+  phonetic: '/əˈveɪləbl/', 
+  definition: '可获得的；有空的', 
+  example: 'Are there any rooms available for tonight?',
+  category: 'basic'
+};
+
 export const generalWordList: WordList = {
   id: 'general-topics',
   title: '综合主题',
-  description: '涵盖多个领域的常用词汇，适合日常交流与口语表达。',
+  description: '涵盖跨场景的通用高频词汇，适合各种口语话题的灵活运用。',
   illustration: () => null,
   theme: 'learn',
   category: 'dse',
   emoji: '🌐',
   words: [
-    { 
-      word: 'knowledge', 
-      emoji: '🧠', 
-      phonetic: '/ˈnɒlɪdʒ/', 
-      definition: '知识', 
-      example: 'Reading books is a great way to gain knowledge.',
-      category: 'basic'
-    },
-    { 
-      word: 'community', 
-      emoji: '🏘️', 
-      phonetic: '/kəˈmjuːnəti/', 
-      definition: '社区', 
-      example: 'Volunteering helps to build a strong community.',
-      category: 'basic'
-    },
     word_annual,
-    { 
-      word: 'favour', 
-      emoji: '🤝', 
-      phonetic: '/ˈfeɪvər/', 
-      definition: '恩惠；偏爱', 
-      example: 'Could you do me a favour and help me carry these boxes?',
-      category: 'basic'
-    },
-    { 
-      word: 'reviews', 
-      emoji: '⭐', 
-      phonetic: '/rɪˈvjuːz/', 
-      definition: '评价；评论', 
-      example: 'The movie received positive reviews from critics.',
-      category: 'basic'
-    },
-    { 
-      word: 'passion', 
-      emoji: '❤️', 
-      phonetic: '/ˈpæʃn/', 
-      definition: '激情；热诚', 
-      example: 'Music has always been his true passion.',
-      category: 'basic'
-    },
-    { 
-      word: 'available', 
-      emoji: '✅', 
-      phonetic: '/əˈveɪləbl/', 
-      definition: '可获得的；有空的', 
-      example: 'Are there any rooms available for tonight?',
-      category: 'basic'
-    },
+    word_available,
     { 
       word: 'storage', 
       emoji: '📦', 
@@ -176,47 +148,7 @@ export const generalWordList: WordList = {
       example: 'We need to find more storage space for our books.',
       category: 'basic'
     },
-    { 
-      word: 'annoying', 
-      emoji: '😤', 
-      phonetic: '/əˈnɔɪɪŋ/', 
-      definition: '恼人的；讨厌的', 
-      example: 'It is very annoying when the internet keeps cutting out.',
-      category: 'basic'
-    },
-    { 
-      word: 'virus', 
-      emoji: '🦠', 
-      phonetic: '/ˈvaɪrəs/', 
-      definition: '病毒', 
-      example: 'Wash your hands regularly to prevent the spread of the virus.',
-      category: 'basic'
-    },
-    { 
-      word: 'curiosity', 
-      emoji: '🤔', 
-      phonetic: '/ˌkjʊərɪˈɒsɪti/', 
-      definition: '好奇心', 
-      example: 'A sense of curiosity is essential for learning.',
-      category: 'advanced'
-    },
-    { 
-      word: 'achievement', 
-      emoji: '🏅', 
-      phonetic: '/əˈtʃiːvmənt/', 
-      definition: '成就', 
-      example: 'Winning the competition was a great achievement.',
-      category: 'advanced'
-    },
     word_spacious,
-    { 
-      word: 'strategy', 
-      emoji: '♟️', 
-      phonetic: '/ˈstrætədʒi/', 
-      definition: '策略；战略', 
-      example: 'We need to develop a clear strategy for our business.',
-      category: 'advanced'
-    },
     word_insecure,
     { 
       word: 'mature', 
@@ -227,35 +159,11 @@ export const generalWordList: WordList = {
       category: 'advanced'
     },
     { 
-      word: 'practical', 
-      emoji: '🛠️', 
-      phonetic: '/ˈpræktɪkl/', 
-      definition: '实际的；实用的', 
-      example: 'We need a practical solution to this problem.',
-      category: 'advanced'
-    },
-    { 
-      word: 'have huge influence on', 
-      emoji: '🌊', 
-      phonetic: '/hæv hjuːdʒ ˈɪnfluəns ɒn/', 
-      definition: '对...有巨大影响', 
-      example: 'Social media can have a huge influence on young people.',
-      category: 'advanced'
-    },
-    { 
       word: 'access', 
       emoji: '🔑', 
       phonetic: '/ˈækses/', 
       definition: '进入；使用权', 
       example: 'You need a password to access the computer system.',
-      category: 'advanced'
-    },
-    { 
-      word: 'irritating', 
-      emoji: '💢', 
-      phonetic: '/ˈɪrɪteɪtɪŋ/', 
-      definition: '令人烦躁的；刺激的', 
-      example: 'She has an irritating habit of interrupting people.',
       category: 'advanced'
     },
     word_recommend,

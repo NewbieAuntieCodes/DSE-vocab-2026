@@ -1,5 +1,15 @@
+
 import React from 'react';
-import { WordList } from '../types';
+import { WordList, Word } from '../types';
+
+export const word_reviews: Word = { 
+  word: 'reviews', 
+  emoji: '⭐', 
+  phonetic: '/rɪˈvjuːz/', 
+  definition: '评价；评论', 
+  example: 'The movie received positive reviews from critics.',
+  category: 'basic'
+};
 
 export const entertainmentWordList: WordList = {
   id: 'dse-entertainment',
@@ -83,7 +93,7 @@ export const entertainmentWordList: WordList = {
       example: 'The audience cheered loudly at the end of the play.',
       category: 'basic'
     },
-
+    word_reviews,
     // 进阶词汇 (Advanced Vocabulary)
     { 
       word: 'paparazzi', 

@@ -1,6 +1,15 @@
 
 import React from 'react';
-import { WordList } from '../types';
+import { WordList, Word } from '../types';
+
+export const word_community: Word = { 
+  word: 'community', 
+  emoji: '🏘️', 
+  phonetic: '/kəˈmjuːnəti/', 
+  definition: '社区', 
+  example: 'Volunteering helps to build a strong community.',
+  category: 'basic'
+};
 
 export const societyWordList: WordList = {
   id: 'dse-society',
@@ -11,6 +20,7 @@ export const societyWordList: WordList = {
   category: 'dse',
   emoji: '🌍',
   words: [
+    word_community,
     // --- 歧视与平等 (Discrimination & Equality) ---
     {
       group: '歧视与平等',

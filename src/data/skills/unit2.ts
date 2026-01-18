@@ -43,7 +43,8 @@ import {
   word_unfamiliar,
   word_positive,
   word_negative,
-  word_maturity
+  word_maturity,
+  word_available
 } from '../general';
 
 // Other imports
@@ -60,7 +61,7 @@ export const skillsUnit2: WordList = {
   words: [
     word_recommend,
     word_inexpensive,
-    { word: 'available', emoji: '📅', phonetic: '/əˈveɪləbl/', definition: '可获得的；有空的', example: 'The manager is available for a meeting now.', category: 'basic' },
+    word_available,
     word_spacious,
     word_receive,
     word_feedback,

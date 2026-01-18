@@ -1,5 +1,15 @@
+
 import React from 'react';
-import { WordList } from '../types';
+import { WordList, Word } from '../types';
+
+export const word_virus: Word = { 
+  word: 'virus', 
+  emoji: '🦠', 
+  phonetic: '/ˈvaɪrəs/', 
+  definition: '病毒', 
+  example: 'Wash your hands regularly to prevent the spread of the virus.',
+  category: 'basic'
+};
 
 export const environmentalWordList: WordList = {
   id: 'dse-environmental',
@@ -10,6 +20,7 @@ export const environmentalWordList: WordList = {
   category: 'dse',
   emoji: '♻️',
   words: [
+    word_virus,
     { word: 'recycle', emoji: '♻️', phonetic: '/ˌriːˈsaɪkl/', definition: '回收利用', example: 'We should recycle paper, plastic, and glass to protect the environment.', category: 'basic' },
     { word: 'pollution', emoji: '🏭', phonetic: '/pəˈluːʃn/', definition: '污染', example: 'Air pollution is a major problem in many industrial cities.', category: 'basic' },
     { word: 'endangered', emoji: '🐼', phonetic: '/ɪnˈdeɪndʒərd/', definition: '濒临灭绝的', example: 'Giant pandas are an endangered species.', category: 'advanced' },

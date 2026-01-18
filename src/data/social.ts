@@ -2,6 +2,51 @@
 import React from 'react';
 import { WordList, Word } from '../types';
 
+export const word_passion: Word = { 
+  word: 'passion', 
+  emoji: '❤️', 
+  phonetic: '/ˈpæʃn/', 
+  definition: '激情；热诚', 
+  example: 'Music has always been his true passion.',
+  category: 'basic'
+};
+
+export const word_favour: Word = { 
+  word: 'favour', 
+  emoji: '🤝', 
+  phonetic: '/ˈfeɪvər/', 
+  definition: '恩惠；偏爱', 
+  example: 'Could you do me a favour and help me carry these boxes?',
+  category: 'basic'
+};
+
+export const word_annoying: Word = { 
+  word: 'annoying', 
+  emoji: '😤', 
+  phonetic: '/əˈnɔɪɪŋ/', 
+  definition: '恼人的；讨厌的', 
+  example: 'It is very annoying when the internet keeps cutting out.',
+  category: 'basic'
+};
+
+export const word_irritating: Word = { 
+  word: 'irritating', 
+  emoji: '💢', 
+  phonetic: '/ˈɪrɪteɪtɪŋ/', 
+  definition: '令人烦躁的；刺激的', 
+  example: 'She has an irritating habit of interrupting people.',
+  category: 'advanced'
+};
+
+export const word_influence: Word = { 
+  word: 'have huge influence on', 
+  emoji: '🌊', 
+  phonetic: '/hæv hjuːdʒ ˈɪnfluəns ɒn/', 
+  definition: '对...有巨大影响', 
+  example: 'Social media can have a huge influence on young people.',
+  category: 'advanced'
+};
+
 export const word_overcome: Word = {
   word: 'overcome',
   emoji: '💪',
@@ -122,7 +167,7 @@ export const socialWordList: WordList = {
     { word: 'misunderstandings', emoji: '😕', phonetic: '/ˌmɪsʌndərˈstændɪŋz/', definition: '误解', example: 'Clear communication can prevent misunderstandings.' },
     { word: 'impression', emoji: '✨', phonetic: '/ɪmˈpreʃn/', definition: '印象', example: 'He made a good impression on his first day at work.' },
     word_overcome,
-    { word: 'shyness', emoji: '😊', phonetic: '/ˈʃaɪnəs/', definition: '害羞；靦腆', example: 'She is trying to overcome her shyness by joining a public speaking club.' },
+    { word: 'shyness', emoji: '😊', phonetic: '/ˈsɪnəs/', definition: '害羞；腼腆', example: 'She is trying to overcome her shyness by joining a public speaking club.' },
     { word: 'confidence', emoji: '😎', phonetic: '/ˈkɒnfɪdəns/', definition: '自信', example: 'Having confidence in yourself is key to success.' },
     { word: 'chat with', emoji: '💬', phonetic: '/tʃæt wɪð/', definition: '与...聊天', example: 'I like to chat with my friends online in the evening.' },
     word_stranger,
@@ -139,6 +184,11 @@ export const socialWordList: WordList = {
     word_anxiety,
     word_member,
     word_avoidant_behavior,
-    word_refuse
+    word_refuse,
+    word_passion,
+    word_favour,
+    word_annoying,
+    word_irritating,
+    word_influence
   ],
 };

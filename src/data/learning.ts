@@ -2,6 +2,51 @@
 import React from 'react';
 import { WordList, Word } from '../types';
 
+export const word_knowledge: Word = { 
+  word: 'knowledge', 
+  emoji: '🧠', 
+  phonetic: '/ˈnɒlɪdʒ/', 
+  definition: '知识', 
+  example: 'Reading books is a great way to gain knowledge.',
+  category: 'basic'
+};
+
+export const word_curiosity: Word = { 
+  word: 'curiosity', 
+  emoji: '🤔', 
+  phonetic: '/ˌkjʊərɪˈɒsɪti/', 
+  definition: '好奇心', 
+  example: 'A sense of curiosity is essential for learning.',
+  category: 'advanced'
+};
+
+export const word_achievement: Word = { 
+  word: 'achievement', 
+  emoji: '🏅', 
+  phonetic: '/əˈtʃiːvmənt/', 
+  definition: '成就', 
+  example: 'Winning the competition was a great achievement.',
+  category: 'advanced'
+};
+
+export const word_strategy: Word = { 
+  word: 'strategy', 
+  emoji: '♟️', 
+  phonetic: '/ˈstrætədʒi/', 
+  definition: '策略；战略', 
+  example: 'We need to develop a clear strategy for our business.',
+  category: 'advanced'
+};
+
+export const word_practical: Word = { 
+  word: 'practical', 
+  emoji: '🛠️', 
+  phonetic: '/ˈpræktɪkl/', 
+  definition: '实际的；实用的', 
+  example: 'We need a practical solution to this problem.',
+  category: 'advanced'
+};
+
 export const word_attend: Word = { 
   word: 'attend', 
   emoji: '🏫',
@@ -219,7 +264,7 @@ export const learningWordList: WordList = {
     { word: 'stress', emoji: '🤯', phonetic: '/stres/', definition: '压力；紧张', example: 'I\'m feeling a lot of stress from my exams.', category: 'basic' },
     { word: 'broaden', emoji: '🌍', phonetic: '/ˈbrɔːdn/', definition: '拓宽；使变宽', example: 'Travel can help to broaden your horizons.', category: 'advanced' },
     { word: 'horizon', emoji: '🌅', phonetic: '/həˈraɪzn/', definition: '地平线；眼界', example: 'Studying abroad expanded my intellectual horizons.', category: 'advanced' },
-    { word: 'knowledge', emoji: '🧠', phonetic: '/ˈnɒlɪdʒ/', definition: '知识', example: 'He has a wide knowledge of history.', category: 'advanced' },
+    word_knowledge,
     { word: 'extracurricular', emoji: '🎨', phonetic: '/ˌekstrəkəˈrɪkjələr/', definition: '课外的', example: 'She participates in many extracurricular activities, such as debate club and volleyball.', category: 'advanced' },
     { word: 'extracurriculum', emoji: '🏀', phonetic: '/ˌekstrəkəˈrɪkjələm/', definition: '课外课程；课外活动', example: 'The school offers a rich extracurriculum to develop students\' interests.', category: 'advanced' },
     { word: 'manage time', emoji: '⏰', phonetic: '/ˈmænɪdʒ taɪm/', definition: '管理时间', example: 'It is important for students to learn how to manage their time effectively.', category: 'basic' },
@@ -237,6 +282,10 @@ export const learningWordList: WordList = {
     word_cope_with,
     word_study_tips,
     word_study_breaks,
-    word_skip_class
+    word_skip_class,
+    word_curiosity,
+    word_achievement,
+    word_strategy,
+    word_practical
   ],
 };
