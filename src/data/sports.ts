@@ -11,7 +11,7 @@ export const word_strength: Word = {
   category: 'basic'
 };
 
-// Fix: Added category: 'basic' to match the intended visual style
+// Fix: Added category: 'basic' to match the red visual style
 export const word_flexible: Word = { 
   word: 'flexible', 
   emoji: '🤸‍♀️', 
@@ -21,7 +21,7 @@ export const word_flexible: Word = {
   category: 'basic'
 };
 
-// Fix: Exporting word_emotional to resolve Module '"../sports"' has no exported member 'word_emotional' error.
+// Fix: Ensured category is 'basic'
 export const word_emotional: Word = { 
   word: 'emotional', 
   emoji: '😊😢', 
@@ -85,13 +85,13 @@ export const sportsWordList: WordList = {
     { word: 'brave', emoji: '🦁', phonetic: '/breɪv/', definition: '勇敢的', example: 'It was brave of the climber to attempt the difficult route.' },
     { word: 'athlete', emoji: '🏃‍♂️', phonetic: '/ˈæθliːt/', definition: '运动员', example: 'She is a professional athlete who competes internationally.' },
     { word: 'sports outfit', emoji: '👕', phonetic: '/spɔːrts ˈaʊtfɪt/', definition: '运动服', example: 'I need to buy a new sports outfit for my yoga class.' },
-    { word: 'running shoes', emoji: '👟', phonetic: '/ˈrʌnɪŋ ʃuːz/', definition: '跑鞋', example: 'A good pair of running shoes is important to prevent injuries.' },
+    { word: 'running shoes', emoji: '👟', phonetic: '/ˈrʌnɪŋ ʃuːz/', definition: '跑鞋', example: 'A pair of running shoes is important to prevent injuries.' },
     { word: 'trainers', emoji: '👟', phonetic: '/ˈtreɪnərz/', definition: '(英式)运动鞋', example: 'He bought a new pair of trainers for playing basketball.' },
-    { word: 'injury', emoji: '🤕', phonetic: '/ˈɪndʒəri/', definition: '受伤', example: 'He suffered a knee injury while playing football and had to rest.' },
-    { word: 'sports uniform', emoji: 'ユニフォーム', phonetic: '/spɔːrts ˈjuːnɪfɔːrm/', definition: '运动制服', example: 'The whole team wore their new sports uniform for the match.' },
-    { word: 'united', emoji: '🤝', phonetic: '/juˈnaɪtɪd/', definition: '团结的', example: 'The team was united in their goal to win the championship.' },
-    { word: 'audience', emoji: '👏', phonetic: '/ˈɔːdiəns/', definition: '观众', example: 'The audience cheered loudly when their team scored a goal.' },
-    { word: 'yoga poses', emoji: '🧘‍♀️', phonetic: '/ˈjoʊɡə poʊzɪz/', definition: '瑜伽姿势', example: 'She is learning some new and challenging yoga poses to improve her flexibility.' },
+    { word: 'injury', emoji: '🤕', phonetic: '/ˈɪndʒəri/', definition: '受伤', example: 'He suffered a knee injury while playing football.' },
+    { word: 'sports uniform', emoji: '🎽', phonetic: '/spɔːrts ˈjuːnɪfɔːrm/', definition: '运动制服', example: 'The whole team wore their new sports uniform.' },
+    { word: 'united', emoji: '🤝', phonetic: '/juˈnaɪtɪd/', definition: '团结的', example: 'The team was united in their goal to win.' },
+    { word: 'audience', emoji: '👏', phonetic: '/ˈɔːdiəns/', definition: '观众', example: 'The audience cheered loudly when their team scored.' },
+    { word: 'yoga poses', emoji: '🧘‍♀️', phonetic: '/ˈjoʊɡə poʊzɪz/', definition: '瑜伽姿势', example: 'She is learning some new and challenging yoga poses.' },
     word_flexible
   ],
 };

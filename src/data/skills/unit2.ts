@@ -47,9 +47,7 @@ import {
 } from '../general';
 
 // Other imports
-import { word_flexible } from '../sports'; // Already exists in sports.ts
-import { word_emotional } from '../sports'; // Need to check if exported, let's use the object directly if not, but typically we export.
-// For brevity and based on previous patterns, I'll assume standard available modality.
+import { word_flexible, word_emotional } from '../sports';
 
 export const skillsUnit2: WordList = {
   id: 'skills-unit-2',
@@ -90,7 +88,7 @@ export const skillsUnit2: WordList = {
     word_member,
     word_avoidant_behavior,
     word_skip_class,
-    word_emotional, // Use the exported constant from sports.ts
+    word_emotional,
     word_positive,
     word_negative,
     word_maturity,
