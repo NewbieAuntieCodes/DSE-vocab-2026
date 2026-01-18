@@ -1,49 +1,67 @@
+
 import { WordList } from '../../types';
 import { SkillsTopicIllustration } from '../../components/Illustrations';
 
+// Atomic Imports from other data sources
+import { 
+  word_pros, 
+  word_cons, 
+  word_sum_up, 
+  word_summarize, 
+  word_in_summary, 
+  word_to_sum_up, 
+  word_agreement, 
+  word_persuade, 
+  word_involvement 
+} from './shared_connectors';
+
+import { 
+  word_attend, 
+  word_tutorial_class, 
+  word_stay_organized, 
+  word_todo_list, 
+  word_time_limit, 
+  word_benefit_from, 
+  word_self_esteem, 
+  word_gifted, 
+  word_deal_with, 
+  word_tutor, 
+  word_weakness 
+} from '../learning';
+
+import { word_strength } from '../sports';
+import { word_overcome } from '../social';
+
 export const skillsUnit1: WordList = {
   id: 'skills-unit-1',
-  title: 'Unit 1: 表达与总结',
-  description: '掌握日常交流、表达意见、总结观点所需的核心词汇。',
+  title: 'Unit 1',
+  description: '掌握 Unit 1 核心词汇：包括讨论优缺点、学习技巧、表达总结及达成共识的表达。',
   illustration: SkillsTopicIllustration,
   theme: 'skills',
   category: 'skills',
   emoji: '🗣️',
   words: [
-    {
-      word: 'In my opinion',
-      emoji: '🤔',
-      phonetic: '/ɪn maɪ əˈpɪnjən/',
-      definition: '在我看来',
-      example: 'In my opinion, the new policy will be very effective.',
-    },
-    {
-      word: 'I believe that',
-      emoji: '👍',
-      phonetic: '/aɪ bɪˈliːv ðæt/',
-      definition: '我相信',
-      example: 'I believe that everyone deserves a second chance.',
-    },
-    {
-      word: 'From my perspective',
-      emoji: '👀',
-      phonetic: '/frɒm maɪ pərˈspektɪv/',
-      definition: '从我的角度来看',
-      example: 'From my perspective, the problem is more complex than it seems.',
-    },
-    {
-      word: 'summary',
-      emoji: '📝',
-      phonetic: '/ˈsʌməri/',
-      definition: '总结；摘要',
-      example: 'He gave a brief summary of the main points.'
-    },
-    {
-      word: 'sum up',
-      emoji: '✍️',
-      phonetic: '/sʌm ʌp/',
-      definition: '总结；概括',
-      example: 'To sum up, we need to improve our communication.'
-    }
+    word_pros,
+    word_cons,
+    word_attend,
+    word_tutorial_class,
+    word_sum_up,
+    word_summarize,
+    word_stay_organized,
+    word_in_summary,
+    word_todo_list,
+    word_time_limit,
+    word_agreement,
+    word_involvement,
+    word_benefit_from,
+    word_to_sum_up,
+    word_self_esteem,
+    word_gifted,
+    word_deal_with,
+    word_persuade,
+    word_tutor,
+    word_strength,
+    word_weakness,
+    word_overcome
   ],
 };
