@@ -5,7 +5,7 @@ import { WordList } from '../types';
 export const societyWordList: WordList = {
   id: 'dse-society',
   title: 'DSE口语 - 社会类',
-  description: '探讨歧视、犯罪、贫富差距、人口政策及社会道德等核心议题。',
+  description: '深度探讨歧视、犯罪、贫富差距、人口政策、移民融入及社会道德等核心议题。',
   illustration: () => null,
   theme: 'learn',
   category: 'dse',
@@ -32,20 +32,20 @@ export const societyWordList: WordList = {
     },
     {
       group: '歧视与平等',
-      word: 'gender pay gap',
-      emoji: '💸',
-      phonetic: '/ˈdʒendər peɪ ɡæp/',
-      definition: '性别薪酬差距',
-      example: 'The government is taking steps to close the gender pay gap.',
+      word: 'disability discrimination',
+      emoji: '♿',
+      phonetic: '/ˌdɪsəˈbɪləti dɪˌskrɪmɪˈneɪʃn/',
+      definition: '残疾歧视',
+      example: 'The law protects people from disability discrimination at school or work.',
       category: 'advanced'
     },
     {
       group: '歧视与平等',
-      word: 'ethnic minority group',
-      emoji: '🌍',
-      phonetic: '/ˈeθnɪk maɪˈnɒrəti ɡruːp/',
-      definition: '少数族裔群体',
-      example: 'The festival celebrates the diverse cultures of ethnic minority groups.',
+      word: 'equal opportunities',
+      emoji: '⚖️',
+      phonetic: '/ˈiːkwəl ˌɒpərˈtuːnətiz/',
+      definition: '平等机会',
+      example: 'We must ensure equal opportunities for all members of society.',
       category: 'basic'
     },
     {
@@ -68,10 +68,19 @@ export const societyWordList: WordList = {
     },
     {
       group: '歧视与平等',
+      word: 'unfair treatment',
+      emoji: '😠',
+      phonetic: '/ˌʌnˈfer ˈtriːtmənt/',
+      definition: '不公平待遇',
+      example: 'Many workers complained about the unfair treatment they received.',
+      category: 'basic'
+    },
+    {
+      group: '歧视与平等',
       word: 'glass ceiling',
       emoji: '🔨',
       phonetic: '/ɡlæs ˈsiːlɪŋ/',
-      definition: '玻璃天花板（无形障碍）',
+      definition: '玻璃天花板（职场无形障碍）',
       example: 'Many women still face a glass ceiling when seeking senior positions.',
       category: 'advanced'
     },
@@ -82,15 +91,6 @@ export const societyWordList: WordList = {
       phonetic: '/ˈmɑːrdʒɪnəlaɪzd ɡruːps/',
       definition: '边缘群体/弱势群体',
       example: 'Social policies should aim to support marginalized groups in our city.',
-      category: 'advanced'
-    },
-    {
-      group: '歧视与平等',
-      word: 'social inclusion',
-      emoji: '🔗',
-      phonetic: '/ˈsoʊʃl ɪnˈkluːʒn/',
-      definition: '社会包容/融合',
-      example: 'Promoting social inclusion is vital for a healthy, unified community.',
       category: 'advanced'
     },
 
@@ -124,11 +124,11 @@ export const societyWordList: WordList = {
     },
     {
       group: '犯罪与法律',
-      word: 'white-collar crime',
-      emoji: '👔💸',
-      phonetic: '/ˌwaɪt ˈkɑːlər kraɪm/',
-      definition: '白领犯罪/经济犯罪',
-      example: 'White-collar crime, such as fraud, can damage the entire economy.',
+      word: 'recidivism',
+      emoji: '🔄',
+      phonetic: '/rɪˈsɪdɪvɪzəm/',
+      definition: '累犯/再次犯罪',
+      example: 'Rehabilitation programs aim to reduce the rate of recidivism.',
       category: 'advanced'
     },
     {
@@ -151,12 +151,21 @@ export const societyWordList: WordList = {
     },
     {
       group: '犯罪与法律',
-      word: 'public safety',
-      emoji: '🚓',
-      phonetic: '/ˈpʌblɪk ˈseɪfti/',
-      definition: '公共安全',
-      example: 'The police are responsible for maintaining public safety.',
+      word: 'community service',
+      emoji: '🧹',
+      phonetic: '/kəˈmjuːnəti ˈsɜːrvɪs/',
+      definition: '社区服务（常作为轻微犯罪惩罚）',
+      example: 'The judge sentenced the teenager to 50 hours of community service.',
       category: 'basic'
+    },
+    {
+      group: '犯罪与法律',
+      word: 'deterrent',
+      emoji: '🛑',
+      phonetic: '/dɪˈtɜːrənt/',
+      definition: '威慑力/震慑物',
+      example: 'Cameras act as a deterrent to potential shoplifters.',
+      category: 'advanced'
     },
 
     // --- 贫富差距与住房 (Wealth Gap & Housing) ---
@@ -189,12 +198,12 @@ export const societyWordList: WordList = {
     },
     {
       group: '贫富差距与住房',
-      word: 'minimum wage',
-      emoji: '💴',
-      phonetic: '/ˈmɪnɪməm weɪdʒ/',
-      definition: '最低工资',
-      example: 'Raising the minimum wage can help improve living standards.',
-      category: 'basic'
+      word: 'poverty alleviation',
+      emoji: '🤲',
+      phonetic: '/ˈpɒvərti əˌliːviˈeɪʃn/',
+      definition: '扶贫/脱贫',
+      example: 'The new policy is designed for long-term poverty alleviation.',
+      category: 'advanced'
     },
     {
       group: '贫富差距与住房',
@@ -207,37 +216,37 @@ export const societyWordList: WordList = {
     },
     {
       group: '贫富差距与住房',
-      word: 'housing crisis',
-      emoji: '🏠🆘',
-      phonetic: '/ˈhaʊzɪŋ ˈkraɪsɪs/',
-      definition: '住房危机',
-      example: 'The government needs urgent measures to tackle the housing crisis.',
+      word: 'public housing estates',
+      emoji: '🏢',
+      phonetic: '/ˈpʌblɪk ˈhaʊzɪŋ ɪˈsteɪts/',
+      definition: '公共屋邨 (公屋)',
+      example: 'Public housing estates provide affordable homes for thousands.',
       category: 'basic'
     },
     {
       group: '贫富差距与住房',
-      word: 'affordable housing',
-      emoji: '🏘️✅',
-      phonetic: '/əˈfɔːrdəbl ˈhaʊzɪŋ/',
-      definition: '可负担住房',
-      example: 'There is a high demand for affordable housing in urban areas.',
+      word: 'standard of living',
+      emoji: '🛋️',
+      phonetic: '/ˈstændərd əv ˈlɪvɪŋ/',
+      definition: '生活水平',
+      example: 'The overall standard of living has improved significantly over the decade.',
       category: 'basic'
     },
     {
       group: '贫富差距与住房',
-      word: 'cost of living',
-      emoji: '💸',
-      phonetic: '/kɒst əv ˈlɪvɪŋ/',
-      definition: '生活成本',
-      example: 'The high cost of living is a burden for many young adults.',
-      category: 'basic'
+      word: 'safety net',
+      emoji: '🕸️',
+      phonetic: '/ˈseɪfti net/',
+      definition: '（社会）安全网',
+      example: 'Social welfare acts as a safety net for those who lose their jobs.',
+      category: 'advanced'
     },
 
     // --- 退休与老龄化 (Retirement & Aging) ---
     {
       group: '退休与老龄化',
       word: 'aging population',
-      emoji: '👴👵',
+      emoji: '👴',
       phonetic: '/ˈeɪdʒɪŋ ˌpɒpjuˈleɪʃn/',
       definition: '人口老化',
       example: 'An aging population leads to a shortage of labor force.',
@@ -254,12 +263,12 @@ export const societyWordList: WordList = {
     },
     {
       group: '退休与老龄化',
-      word: 'retirement age',
+      word: 'mandatory retirement',
       emoji: '📅',
-      phonetic: '/rɪˈtaɪərmənt eɪdʒ/',
-      definition: '退休年龄',
-      example: 'Some people suggest extending the mandatory retirement age.',
-      category: 'basic'
+      phonetic: '/ˈmændətɔːri rɪˈtaɪərmənt/',
+      definition: '强制退休',
+      example: 'There are debates about whether mandatory retirement should be abolished.',
+      category: 'advanced'
     },
     {
       group: '退休与老龄化',
@@ -290,12 +299,21 @@ export const societyWordList: WordList = {
     },
     {
       group: '退休与老龄化',
-      word: 'silver economy',
-      emoji: '👵💰',
-      phonetic: '/ˈsɪlvər ɪˈkɒnəmi/',
-      definition: '银发经济',
-      example: 'Companies are developing products to cater to the silver economy.',
-      category: 'advanced'
+      word: 'senior citizens',
+      emoji: '👵',
+      phonetic: '/ˈsiːniər ˈsɪtɪznz/',
+      definition: '长者/高龄公民',
+      example: 'Public transport offers discounts for senior citizens.',
+      category: 'basic'
+    },
+    {
+      group: '退休与老龄化',
+      word: 'loneliness',
+      emoji: '😔',
+      phonetic: '/ˈloʊnlɪnəs/',
+      definition: '孤独感',
+      example: 'Loneliness among the elderly is a serious social issue.',
+      category: 'basic'
     },
 
     // --- 移民与融合 (Immigration & Integration) ---
@@ -304,17 +322,17 @@ export const societyWordList: WordList = {
       word: 'immigrant',
       emoji: '🧳',
       phonetic: '/ˈɪmɪɡrənt/',
-      definition: '移民',
+      definition: '移民 (人)',
       example: 'Immigrants contribute to the cultural diversity of the city.',
       category: 'basic'
     },
     {
       group: '移民与融合',
-      word: 'brain drain',
-      emoji: '🧠🏃',
-      phonetic: '/breɪn dreɪn/',
-      definition: '人才流失',
-      example: 'The country is worried about the brain drain of young doctors.',
+      word: 'integrate',
+      emoji: '🧩',
+      phonetic: '/ˈɪntɪɡreɪt/',
+      definition: '融合/融入 (动词)',
+      example: 'It can be difficult for new arrivals to integrate into the local community.',
       category: 'advanced'
     },
     {
@@ -322,8 +340,17 @@ export const societyWordList: WordList = {
       word: 'social integration',
       emoji: '🤝',
       phonetic: '/ˈsoʊʃl ˌɪntɪˈɡreɪʃn/',
-      definition: '社会融合',
+      definition: '社会融合 (名词)',
       example: 'Language classes help newcomers with their social integration.',
+      category: 'advanced'
+    },
+    {
+      group: '移民与融合',
+      word: 'brain drain',
+      emoji: '🧠🏃',
+      phonetic: '/breɪn dreɪn/',
+      definition: '人才流失',
+      example: 'The country is worried about the brain drain of young professionals.',
       category: 'advanced'
     },
     {
@@ -338,7 +365,7 @@ export const societyWordList: WordList = {
     {
       group: '移民与融合',
       word: 'xenophobia',
-      emoji: '😡🚫',
+      emoji: '😡',
       phonetic: '/ˌzenəˈfoʊbiə/',
       definition: '仇外心理',
       example: 'Xenophobia can lead to social tension and conflict.',
@@ -346,11 +373,20 @@ export const societyWordList: WordList = {
     },
     {
       group: '移民与融合',
-      word: 'expatriate',
-      emoji: '🌍✈️',
-      phonetic: '/ˌeksˈpeɪtriət/',
-      definition: '外籍人士 (Expats)',
-      example: 'Hong Kong has a large community of expatriates.',
+      word: 'push and pull factors',
+      emoji: '↔️',
+      phonetic: '/pʊʃ ænd pʊl ˈfæktərz/',
+      definition: '推拉因素 (导致移民的原因)',
+      example: 'Economists study the push and pull factors of global migration.',
+      category: 'advanced'
+    },
+    {
+      group: '移民与融合',
+      word: 'cultural diversity',
+      emoji: '🌍',
+      phonetic: '/ˈkʌltʃərəl daɪˈvɜːrsəti/',
+      definition: '文化多样性',
+      example: 'Cultural diversity enriches our society with new perspectives.',
       category: 'basic'
     },
 
@@ -361,7 +397,7 @@ export const societyWordList: WordList = {
       emoji: '🏢❤️',
       phonetic: '/ˈsoʊʃl rɪˌspɒnsəˈbɪləti/',
       definition: '社会责任',
-      example: 'Corporate social responsibility (CSR) is important for big brands.',
+      example: 'Corporate social responsibility (CSR) is important for modern brands.',
       category: 'advanced'
     },
     {
@@ -393,11 +429,11 @@ export const societyWordList: WordList = {
     },
     {
       group: '社区、道德与责任',
-      word: 'volunteerism',
-      emoji: '🙋‍♂️',
-      phonetic: '/ˌvɒlənˈtɪərɪzəm/',
-      definition: '志愿服务精神',
-      example: 'Volunteerism can strengthen the bonds within a community.',
+      word: 'sense of belonging',
+      emoji: '🏠',
+      phonetic: '/sens əv bɪˈlɒŋɪŋ/',
+      definition: '归属感',
+      example: 'Community events help residents develop a sense of belonging.',
       category: 'basic'
     },
     {
@@ -411,11 +447,20 @@ export const societyWordList: WordList = {
     },
     {
       group: '社区、道德与责任',
-      word: 'humanitarian aid',
-      emoji: '📦🆘',
-      phonetic: '/hjuːˌmænɪˈteriən eɪd/',
-      definition: '人道主义援助',
-      example: 'International organizations provide humanitarian aid to war zones.',
+      word: 'public interest',
+      emoji: '📢',
+      phonetic: '/ˈpʌblɪk ˈɪntrəst/',
+      definition: '公共利益',
+      example: 'The government should always act in the public interest.',
+      category: 'basic'
+    },
+    {
+      group: '社区、道德与责任',
+      word: 'ethical dilemma',
+      emoji: '❓',
+      phonetic: '/ˈeθɪkl daɪˈlemə/',
+      definition: '道德困境/伦理两难',
+      example: 'The doctor faced an ethical dilemma regarding the patient\'s care.',
       category: 'advanced'
     }
   ],
