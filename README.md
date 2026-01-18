@@ -17,52 +17,63 @@
 
 ---
 
-## 开发者指南：词汇库扩展规范 🛠️
+## 核心开发准则 (Core Principles) 📌
 
-为了防止随着 8 个单元的加入导致代码冗余或变成“屎山”，本项目采用 **“原子化单词导出 (Atomic Word Export)”** 模式。
+为了确保应用的高质量体验与代码的可维护性，请遵循以下准则：
+
+1. **唯一性与“去重”准则**：
+   - **禁止冗余**：如果一个单词在“学习”、“社交”等具体话题中有了明确的分类，它**严禁**出现在 `general.ts` 的 `generalWordList` 列表中。
+   - **原子引用**：跨单元（如 Unit 2）需要使用这些词时，必须通过 `import` 导入常量，保持 UI 简洁且数据源唯一。
+
+2. **视觉等级样式映射**：
+   - **必须包含 Category**：单词对象必须包含 `category: 'basic'` 或 `'advanced'`。
+   - **颜色映射**：`basic` 对应红色（基础），`advanced` 对应蓝色（进阶）。缺失此属性会导致样式失效。
+
+3. **iPad/iOS 语音引擎优化**：
+   - **优先级**：在 `utils.ts` 的 `speak` 函数中，必须优先寻找 `Samantha (Enhanced)` 或 `Karen` 等清晰女声。
+   - **黑名单**：主动避开 `Daniel` 等发音生硬的男声。
+
+4. **练习模式干扰项 (Distractors) 逻辑**：
+   - **生成逻辑**：生成练习题时，干扰项必须**首选当前列表内**的单词，次选全局单词池。这能显著增加练习的针对性。
+
+5. **Unit 单元命名规范**：
+   - **极简原则**：Essential Skills 的单元标题应保持极简（如 "Unit 2"），不要添加冗长的描述，以适配移动端标题栏显示。
+
+---
+
+## 词汇库扩展规范 🛠️
+
+本项目采用 **“原子化单词导出 (Atomic Word Export)”** 模式。
 
 ### 1. 原子化定义 (唯一事实来源)
 **不要**直接在 `WordList` 的 `words` 数组里写死单词对象。
-请在对应的“主题文件”（如 `src/data/society.ts`）中，将每个单词定义为独立的常量并导出。
+请在对应的“主题文件”（如 `src/data/learning.ts`）中，将每个单词定义为独立的常量并导出。
 
 ```typescript
-// src/data/society.ts (主题文件：作为“仓库”)
-export const word_discrimination = {
-  word: 'discrimination',
-  emoji: '🚫',
-  phonetic: '/dɪˌskrɪmɪˈneɪʃn/',
-  definition: '歧视',
-  example: 'Discrimination based on age is illegal...',
+// src/data/learning.ts (主题文件：作为“仓库”)
+export const word_knowledge = {
+  word: 'knowledge',
+  emoji: '🧠',
+  phonetic: '/ˈnɒlɪdʒ/',
+  definition: '知识',
+  example: 'Reading books is a great way to gain knowledge.',
   category: 'basic'
 };
 ```
 
 ### 2. 跨文件引用 (精选集模式)
-单元文件（如 `unit1.ts`）不存储数据，只负责“点菜”。通过 `import` 引用仓库里的单词。
+单元文件（如 `unit2.ts`）不存储数据，只负责“点菜”。
 
 ```typescript
-// src/data/skills/unit1.ts (单元文件：作为“货架”)
-import { word_discrimination } from '../society'; // 从社会类仓库借一个词
-import { word_pollution } from '../environmental'; // 从环保类仓库借一个词
+// src/data/skills/unit2.ts (单元文件：作为“货架”)
+import { word_knowledge } from '../learning'; 
 
-export const skillsUnit1 = {
-  id: 'skills-unit-1',
-  title: 'Unit 1: 表达与总结',
-  words: [ 
-    word_discrimination, 
-    word_pollution,
-    // 如果是本单元独有的新词，可以临时定义在这里
-  ]
+export const skillsUnit2 = {
+  id: 'skills-unit-2',
+  title: 'Unit 2',
+  words: [ word_knowledge ]
 };
 ```
-
-### 3. 添加新单词的逻辑
-- **属于某个话题**：先在 `society.ts` 或 `environmental.ts` 等主题文件中补齐 `export const`。
-- **属于逻辑连接词**：如果是一些通用的连接词（如 *Moreover*, *However*），请放入 `src/data/skills/shared_connectors.ts`。
-- **处理重复**：如果 Unit 1 和 Unit 4 都用到同一个词，只需两次 `import` 同一个常量。**严禁复制粘贴对象内容**。
-
-### 4. 维护规范
-如果你发现某个单词的音标或解释错了，**只需要在定义它的那个主题文件中改一次**，所有引用该单词的话题表和 Unit 单元都会自动更新。
 
 ---
 
