@@ -35,6 +35,76 @@ export const word_machine_learning: Word = {
   example: 'Machine learning allows computers to learn from data without being explicitly programmed.'
 };
 
+export const word_deep_learning: Word = {
+  group: '人工智能与创新',
+  category: 'basic',
+  word: 'deep learning',
+  emoji: '🧠',
+  phonetic: '/ˌdiːp ˈlɜːrnɪŋ/',
+  definition: '深度学习',
+  example: 'Deep learning helps computers recognize faces and voices more accurately.'
+};
+
+export const word_big_data: Word = {
+  group: '人工智能与创新',
+  category: 'basic',
+  word: 'big data',
+  emoji: '🗄️',
+  phonetic: '/ˌbɪɡ ˈdeɪtə/',
+  definition: '大数据',
+  example: 'Big data can help companies understand customers and make better decisions.'
+};
+
+export const word_intelligent_system: Word = {
+  group: '人工智能与创新',
+  category: 'basic',
+  word: 'intelligent system',
+  emoji: '🤖',
+  phonetic: '/ɪnˈtelɪdʒənt ˈsɪstəm/',
+  definition: '智能系统',
+  example: 'An intelligent system can adjust the room temperature automatically.'
+};
+
+export const word_human_ai_interaction: Word = {
+  group: '人工智能与创新',
+  category: 'basic',
+  word: 'human-AI interaction',
+  emoji: '🤝🤖',
+  phonetic: '/ˈhjuːmən eɪˈaɪ ˌɪntərˈækʃn/',
+  definition: '人机交互',
+  example: 'Good human-AI interaction makes technology easier and safer to use.'
+};
+
+export const word_neural_network: Word = {
+  group: '人工智能与创新',
+  category: 'advanced',
+  word: 'neural network',
+  emoji: '🕸️',
+  phonetic: '/ˈnjʊrəl ˈnetwɜːrk/',
+  definition: '神经网络',
+  example: 'A neural network learns patterns from huge amounts of data.'
+};
+
+export const word_predictive_model: Word = {
+  group: '人工智能与创新',
+  category: 'advanced',
+  word: 'predictive model',
+  emoji: '📈',
+  phonetic: '/prɪˈdɪktɪv ˈmɒdl/',
+  definition: '预测模型',
+  example: 'A predictive model can estimate how many people will catch the flu next month.'
+};
+
+export const word_autonomous_system: Word = {
+  group: '人工智能与创新',
+  category: 'advanced',
+  word: 'autonomous system',
+  emoji: '🚗',
+  phonetic: '/ɔːˈtɒnəməs ˈsɪstəm/',
+  definition: '自主系统',
+  example: 'An autonomous system can operate with little or no human control.'
+};
+
 export const word_automation: Word = {
   group: '人工智能与创新',
   category: 'advanced',
@@ -146,6 +216,106 @@ export const word_high_tech: Word = {
   example: 'The new office building has many high-tech features.'
 };
 
+export const word_cloud_computing: Word = {
+  group: '数字生活与社交',
+  category: 'basic',
+  word: 'cloud computing',
+  emoji: '☁️',
+  phonetic: '/ˌklaʊd kəmˈpjuːtɪŋ/',
+  definition: '云计算',
+  example: 'Cloud computing lets people store files online instead of on their own computers.'
+};
+
+export const word_live_streaming: Word = {
+  group: '数字生活与社交',
+  category: 'basic',
+  word: 'live streaming',
+  emoji: '📡',
+  phonetic: '/ˌlaɪv ˈstriːmɪŋ/',
+  definition: '直播',
+  example: 'Live streaming allows viewers to watch events in real time.'
+};
+
+export const word_online_platform: Word = {
+  group: '数字生活与社交',
+  category: 'basic',
+  word: 'online platform',
+  emoji: '🌐',
+  phonetic: '/ˈɒnlaɪn ˈplætfɔːrm/',
+  definition: '在线平台',
+  example: 'Many students use an online platform to submit homework and join discussions.'
+};
+
+export const word_e_commerce: Word = {
+  group: '数字生活与社交',
+  category: 'basic',
+  word: 'e-commerce',
+  emoji: '🛒',
+  phonetic: '/ˈiː ˌkɒmɜːrs/',
+  definition: '电子商务',
+  example: 'E-commerce makes shopping convenient, but it can also encourage impulse buying.'
+};
+
+export const word_smart_device: Word = {
+  group: '数字生活与社交',
+  category: 'basic',
+  word: 'smart device',
+  emoji: '📱',
+  phonetic: '/ˌsmɑːrt dɪˈvaɪs/',
+  definition: '智能设备',
+  example: 'A smart device can connect to the internet and collect data about users.'
+};
+
+export const word_digital_footprint: Word = {
+  group: '数字生活与社交',
+  category: 'advanced',
+  word: 'digital footprint',
+  emoji: '👣',
+  phonetic: '/ˌdɪdʒɪtl ˈfʊtprɪnt/',
+  definition: '数字足迹',
+  example: 'Be careful what you post online because your digital footprint can last for years.'
+};
+
+export const word_screen_addiction: Word = {
+  group: '数字生活与社交',
+  category: 'advanced',
+  word: 'screen addiction',
+  emoji: '📵',
+  phonetic: '/ˈskriːn əˈdɪkʃn/',
+  definition: '屏幕成瘾',
+  example: 'Screen addiction may affect sleep, concentration, and relationships.'
+};
+
+export const word_remote_working: Word = {
+  group: '数字生活与社交',
+  category: 'advanced',
+  word: 'remote working',
+  emoji: '🏠💻',
+  phonetic: '/rɪˌmoʊt ˈwɜːrkɪŋ/',
+  definition: '远程工作',
+  example: 'Remote working saves commuting time, but it can make communication harder.'
+};
+
+export const word_virtual_assistant: Word = {
+  group: '数字生活与社交',
+  category: 'advanced',
+  word: 'virtual assistant',
+  emoji: '🗣️',
+  phonetic: '/ˈvɜːrtʃuəl əˈsɪstənt/',
+  definition: '虚拟助手',
+  example: 'A virtual assistant can set alarms, play music, and answer simple questions.'
+};
+
+export const word_wearable_technology: Word = {
+  group: '数字生活与社交',
+  category: 'advanced',
+  word: 'wearable technology',
+  emoji: '⌚',
+  phonetic: '/ˈwerəbl tekˈnɒlədʒi/',
+  definition: '可穿戴技术',
+  example: 'Wearable technology, like smartwatches, can track heart rate and steps.'
+};
+
 export const word_gadget: Word = {
   group: '数字生活与社交',
   category: 'advanced', // 调整为进阶词汇
@@ -215,6 +385,106 @@ export const word_cybersecurity: Word = {
   phonetic: '/ˌsaɪbərsɪˈkjʊərəti/',
   definition: '网络安全',
   example: 'Cybersecurity is a growing concern for businesses and governments.'
+};
+
+export const word_firewall: Word = {
+  group: '网络安全与隐私',
+  category: 'basic',
+  word: 'firewall',
+  emoji: '🔥🧱',
+  phonetic: '/ˈfaɪərwɔːl/',
+  definition: '防火墙',
+  example: 'A firewall helps block harmful traffic from entering a network.'
+};
+
+export const word_data_protection: Word = {
+  group: '网络安全与隐私',
+  category: 'basic',
+  word: 'data protection',
+  emoji: '🛡️',
+  phonetic: '/ˈdeɪtə prəˈtekʃn/',
+  definition: '数据保护',
+  example: 'Strong data protection policies can reduce privacy risks.'
+};
+
+export const word_secure_connection: Word = {
+  group: '网络安全与隐私',
+  category: 'advanced',
+  word: 'secure connection',
+  emoji: '🔐',
+  phonetic: '/sɪˈkjʊr kəˈnekʃn/',
+  definition: '安全连接',
+  example: 'Always use a secure connection when you do online banking.'
+};
+
+export const word_data_breach: Word = {
+  group: '网络安全与隐私',
+  category: 'advanced',
+  word: 'data breach',
+  emoji: '💥',
+  phonetic: '/ˈdeɪtə briːtʃ/',
+  definition: '数据泄露',
+  example: 'After the data breach, the company had to warn millions of users.'
+};
+
+export const word_identity_theft: Word = {
+  group: '网络安全与隐私',
+  category: 'advanced',
+  word: 'identity theft',
+  emoji: '🎭',
+  phonetic: '/aɪˈdentəti θeft/',
+  definition: '身份盗用',
+  example: 'Identity theft can cause serious financial and emotional damage.'
+};
+
+export const word_two_factor_authentication: Word = {
+  group: '网络安全与隐私',
+  category: 'advanced',
+  word: 'two-factor authentication',
+  emoji: '✅',
+  phonetic: '/ˌtuː ˌfæktər ɔːˌθentɪˈkeɪʃn/',
+  definition: '双重验证（双因素认证）',
+  example: 'Two-factor authentication adds an extra layer of security to your account.'
+};
+
+export const word_phishing: Word = {
+  group: '网络安全与隐私',
+  category: 'advanced',
+  word: 'phishing',
+  emoji: '🎣',
+  phonetic: '/ˈfɪʃɪŋ/',
+  definition: '网络钓鱼',
+  example: 'Phishing emails often look real, but they try to steal your passwords.'
+};
+
+export const word_malware: Word = {
+  group: '网络安全与隐私',
+  category: 'advanced',
+  word: 'malware',
+  emoji: '🦠',
+  phonetic: '/ˈmælwer/',
+  definition: '恶意软件',
+  example: 'Malware can slow down your computer or steal personal information.'
+};
+
+export const word_spyware: Word = {
+  group: '网络安全与隐私',
+  category: 'advanced',
+  word: 'spyware',
+  emoji: '🕵️',
+  phonetic: '/ˈspaɪwer/',
+  definition: '间谍软件',
+  example: 'Spyware can track what you type and send the data to criminals.'
+};
+
+export const word_digital_surveillance: Word = {
+  group: '网络安全与隐私',
+  category: 'advanced',
+  word: 'digital surveillance',
+  emoji: '📹',
+  phonetic: '/ˌdɪdʒɪtl sərˈveɪləns/',
+  definition: '数字监控',
+  example: 'Digital surveillance can improve safety, but it may threaten privacy.'
 };
 
 export const word_encryption: Word = {
@@ -371,9 +641,16 @@ export const technologyWordList: WordList = {
     word_ai,
     word_robot,
     word_machine_learning,
+    word_deep_learning,
+    word_big_data,
+    word_intelligent_system,
+    word_human_ai_interaction,
     { ...word_access, group: '人工智能与创新' } as Word,
     word_automation,
     word_algorithm,
+    word_neural_network,
+    word_predictive_model,
+    word_autonomous_system,
     word_cutting_edge,
     word_groundbreaking,
     word_state_of_the_art,
@@ -381,12 +658,22 @@ export const technologyWordList: WordList = {
     // --- 数字生活与社交 ---
     word_smartphone,
     word_social_media,
+    word_smart_device,
     word_app,
+    word_online_platform,
     word_video_call,
+    word_live_streaming,
+    word_e_commerce,
+    word_cloud_computing,
     word_vr,
     word_high_tech,
     { ...word_online_learning, group: '数字生活与社交' } as Word,
     word_gadget,
+    word_digital_footprint,
+    word_screen_addiction,
+    word_remote_working,
+    word_virtual_assistant,
+    word_wearable_technology,
     word_digital_native,
     word_tech_savvy,
     word_ar,
@@ -396,7 +683,17 @@ export const technologyWordList: WordList = {
     { ...word_privacy, group: '网络安全与隐私' } as Word,
     { ...word_cybercrime, group: '网络安全与隐私' } as Word,
     word_cybersecurity,
+    word_firewall,
+    word_data_protection,
     word_hacker,
+    word_secure_connection,
+    word_two_factor_authentication,
+    word_phishing,
+    word_malware,
+    word_spyware,
+    word_identity_theft,
+    word_data_breach,
+    word_digital_surveillance,
     word_facial_recognition,
     word_encryption,
     word_biometric,
