@@ -1,5 +1,6 @@
 import { WordList } from '../../types';
 import { SkillsTopicIllustration } from '../../components/Illustrations';
+import { word_could_you_explain, word_i_dont_understand } from '../lexicon';
 
 export const skillsUnit7: WordList = {
   id: 'skills-unit-7',
@@ -10,19 +11,7 @@ export const skillsUnit7: WordList = {
   category: 'skills',
   emoji: '❓',
   words: [
-    {
-      word: 'Could you explain',
-      emoji: '❓',
-      phonetic: '/kʊd ju ɪkˈspleɪn/',
-      definition: '你能解释一下吗',
-      example: 'Could you explain what you mean by that?',
-    },
-    {
-      word: "I don't understand",
-      emoji: '🤷',
-      phonetic: '/aɪ doʊnt ˌʌndərˈstænd/',
-      definition: '我不明白',
-      example: "I'm sorry, I don't understand the question.",
-    },
+    word_could_you_explain,
+    word_i_dont_understand,
   ],
 };

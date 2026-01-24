@@ -1,5 +1,6 @@
 import { WordList } from '../../types';
 import { SkillsTopicIllustration } from '../../components/Illustrations';
+import { word_firstly, word_in_conclusion } from '../lexicon';
 
 export const skillsUnit8: WordList = {
   id: 'skills-unit-8',
@@ -10,19 +11,7 @@ export const skillsUnit8: WordList = {
   category: 'skills',
   emoji: '🏛️',
   words: [
-    {
-      word: 'Firstly',
-      emoji: '1️⃣',
-      phonetic: '/ˈfɜːrstli/',
-      definition: '首先',
-      example: "Firstly, I'd like to thank everyone for coming.",
-    },
-    {
-      word: 'In conclusion',
-      emoji: '🏁',
-      phonetic: '/ɪn kənˈkluːʒn/',
-      definition: '总而言之',
-      example: 'In conclusion, I believe we should move forward with the plan.',
-    },
+    word_firstly,
+    word_in_conclusion,
   ],
 };

@@ -1,5 +1,6 @@
 import { WordList } from '../../types';
 import { SkillsTopicIllustration } from '../../components/Illustrations';
+import { word_for_example, word_for_instance } from '../lexicon';
 
 export const skillsUnit3: WordList = {
   id: 'skills-unit-3',
@@ -10,19 +11,7 @@ export const skillsUnit3: WordList = {
   category: 'skills',
   emoji: '👉',
   words: [
-    {
-      word: 'For example',
-      emoji: '👉',
-      phonetic: '/fɔːr ɪɡˈzæmpl/',
-      definition: '例如',
-      example: 'Many countries, for example Sweden, have a high recycling rate.',
-    },
-    {
-      word: 'For instance',
-      emoji: '👉',
-      phonetic: '/fɔːr ˈɪnstəns/',
-      definition: '例如',
-      example: 'Some hobbies are very relaxing. For instance, I enjoy painting.',
-    },
+    word_for_example,
+    word_for_instance,
   ],
 };

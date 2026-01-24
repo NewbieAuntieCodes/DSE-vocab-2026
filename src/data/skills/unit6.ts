@@ -1,5 +1,6 @@
 import { WordList } from '../../types';
 import { SkillsTopicIllustration } from '../../components/Illustrations';
+import { word_i_feel, word_it_makes_me_feel } from '../lexicon';
 
 export const skillsUnit6: WordList = {
   id: 'skills-unit-6',
@@ -10,19 +11,7 @@ export const skillsUnit6: WordList = {
   category: 'skills',
   emoji: '😊',
   words: [
-    {
-      word: 'I feel',
-      emoji: '😊',
-      phonetic: '/aɪ fiːl/',
-      definition: '我感觉',
-      example: 'I feel very happy about the good news.',
-    },
-    {
-      word: 'It makes me feel',
-      emoji: '😄',
-      phonetic: '/ɪt meɪks mi fiːl/',
-      definition: '这让我感觉',
-      example: 'Listening to classical music makes me feel relaxed.',
-    },
+    word_i_feel,
+    word_it_makes_me_feel,
   ],
 };

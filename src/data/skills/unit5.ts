@@ -1,5 +1,6 @@
 import { WordList } from '../../types';
 import { SkillsTopicIllustration } from '../../components/Illustrations';
+import { word_how_about, word_i_suggest } from '../lexicon';
 
 export const skillsUnit5: WordList = {
   id: 'skills-unit-5',
@@ -10,19 +11,7 @@ export const skillsUnit5: WordList = {
   category: 'skills',
   emoji: '💡',
   words: [
-    {
-      word: 'I suggest',
-      emoji: '💡',
-      phonetic: '/aɪ səˈdʒest/',
-      definition: '我建议',
-      example: 'I suggest we take a short break before continuing.',
-    },
-    {
-      word: 'How about',
-      emoji: '🤔',
-      phonetic: '/haʊ əˈbaʊt/',
-      definition: '...怎么样？',
-      example: 'How about going to the movies tonight?',
-    },
+    word_i_suggest,
+    word_how_about,
   ],
 };
