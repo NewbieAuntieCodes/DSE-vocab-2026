@@ -518,6 +518,36 @@ export const word_facial_recognition: Word = {
 };
 
 // --- 科技影响与未来 (Impact & Future) ---
+export const word_smart_city: Word = {
+  group: '科技影响与未来',
+  category: 'basic',
+  word: 'smart city',
+  emoji: '🏙️',
+  phonetic: '/ˌsmɑːrt ˈsɪti/',
+  definition: '智慧城市',
+  example: 'A smart city uses technology to improve transport, safety, and public services.'
+};
+
+export const word_sustainable_technology: Word = {
+  group: '科技影响与未来',
+  category: 'basic',
+  word: 'sustainable technology',
+  emoji: '🌿',
+  phonetic: '/səˈsteɪnəbl tekˈnɒlədʒi/',
+  definition: '可持续科技',
+  example: 'Sustainable technology helps reduce pollution and save energy.'
+};
+
+export const word_quality_of_life: Word = {
+  group: '科技影响与未来',
+  category: 'basic',
+  word: 'quality of life',
+  emoji: '😊',
+  phonetic: '/ˈkwɑːləti əv laɪf/',
+  definition: '生活质量',
+  example: 'Good public services and clean air can improve people\'s quality of life.'
+};
+
 export const word_update: Word = {
   group: '科技影响与未来',
   category: 'basic',
@@ -556,6 +586,76 @@ export const word_user_friendly: Word = {
   phonetic: '/ˌjuːzər ˈfrendli/',
   definition: '用户友好的；操作简单的',
   example: 'The new operating system is much more user-friendly.'
+};
+
+export const word_digital_transformation: Word = {
+  group: '科技影响与未来',
+  category: 'advanced',
+  word: 'digital transformation',
+  emoji: '🔄',
+  phonetic: '/ˈdɪdʒɪtl ˌtrænsfərˈmeɪʃn/',
+  definition: '数字化转型',
+  example: 'Digital transformation helps companies move services online and work more efficiently.'
+};
+
+export const word_ethical_issues: Word = {
+  group: '科技影响与未来',
+  category: 'advanced',
+  word: 'ethical issues',
+  emoji: '⚖️',
+  phonetic: '/ˈeθɪkl ˈɪʃuːz/',
+  definition: '伦理问题',
+  example: 'AI can raise ethical issues such as bias, privacy, and responsibility.'
+};
+
+export const word_job_displacement: Word = {
+  group: '科技影响与未来',
+  category: 'advanced',
+  word: 'job displacement',
+  emoji: '🤖',
+  phonetic: '/dʒɒb dɪsˈpleɪsmənt/',
+  definition: '岗位替代；就业被取代',
+  example: 'Automation may cause job displacement, so workers need new skills.'
+};
+
+export const word_future_workforce: Word = {
+  group: '科技影响与未来',
+  category: 'advanced',
+  word: 'future workforce',
+  emoji: '👩‍💻',
+  phonetic: '/ˈfjuːtʃər ˈwɜːrkfɔːrs/',
+  definition: '未来劳动力；未来工作人口',
+  example: 'Schools should prepare students for the future workforce with digital skills.'
+};
+
+export const word_technological_gap: Word = {
+  group: '科技影响与未来',
+  category: 'advanced',
+  word: 'technological gap',
+  emoji: '📉',
+  phonetic: '/ˌteknəˈlɒdʒɪkl ɡæp/',
+  definition: '技术鸿沟',
+  example: 'The technological gap can widen when some people cannot access the internet.'
+};
+
+export const word_social_impact: Word = {
+  group: '科技影响与未来',
+  category: 'advanced',
+  word: 'social impact',
+  emoji: '🌍',
+  phonetic: '/ˈsoʊʃl ˈɪmpækt/',
+  definition: '社会影响',
+  example: 'We should consider the social impact of new technology, not just the profits.'
+};
+
+export const word_tech_dependence: Word = {
+  group: '科技影响与未来',
+  category: 'advanced',
+  word: 'tech dependence',
+  emoji: '🔌',
+  phonetic: '/tek dɪˈpendəns/',
+  definition: '对科技依赖',
+  example: 'Tech dependence can make people anxious when they cannot go online.'
 };
 
 export const word_innovative: Word = {
@@ -626,6 +726,107 @@ export const word_breakthrough: Word = {
   phonetic: '/ˈbreɪkθruː/',
   definition: '重大突破',
   example: 'Scientists are hoping for a breakthrough in Alzheimer\'s research.'
+};
+
+// --- 口语高频实用词组 (Speaking Phrases) ---
+export const word_keep_up_with_technology: Word = {
+  group: '口语高频实用词组',
+  category: 'basic',
+  word: 'keep up with technology',
+  emoji: '🏃‍♀️💻',
+  phonetic: '/kiːp ʌp wɪð tekˈnɒlədʒi/',
+  definition: '跟上科技发展',
+  example: 'It is important to keep up with technology in today\'s job market.'
+};
+
+export const word_bring_convenience_to_daily_life: Word = {
+  group: '口语高频实用词组',
+  category: 'basic',
+  word: 'bring convenience to daily life',
+  emoji: '🧺',
+  phonetic: '/brɪŋ kənˈviːniəns tə ˈdeɪli laɪf/',
+  definition: '给日常生活带来便利',
+  example: 'Smart devices bring convenience to daily life, especially for the elderly.'
+};
+
+export const word_improve_efficiency: Word = {
+  group: '口语高频实用词组',
+  category: 'basic',
+  word: 'improve efficiency',
+  emoji: '⚙️',
+  phonetic: '/ɪmˈpruːv ɪˈfɪʃnsi/',
+  definition: '提高效率',
+  example: 'Automation can improve efficiency and reduce human error.'
+};
+
+export const word_save_time_and_energy: Word = {
+  group: '口语高频实用词组',
+  category: 'basic',
+  word: 'save time and energy',
+  emoji: '⏳',
+  phonetic: '/seɪv taɪm ænd ˈenərdʒi/',
+  definition: '节省时间和精力',
+  example: 'Online services save time and energy because people don\'t need to queue.'
+};
+
+export const word_change_the_way_we_live: Word = {
+  group: '口语高频实用词组',
+  category: 'basic',
+  word: 'change the way we live',
+  emoji: '🔄',
+  phonetic: '/tʃeɪndʒ ðə weɪ wi lɪv/',
+  definition: '改变我们生活的方式',
+  example: 'The internet has changed the way we live and communicate.'
+};
+
+export const word_become_part_of_daily_life: Word = {
+  group: '口语高频实用词组',
+  category: 'basic',
+  word: 'become part of daily life',
+  emoji: '📱',
+  phonetic: '/bɪˈkʌm pɑːrt əv ˈdeɪli laɪf/',
+  definition: '成为日常生活的一部分',
+  example: 'Mobile payments have become part of daily life in many cities.'
+};
+
+export const word_raise_privacy_concerns: Word = {
+  group: '口语高频实用词组',
+  category: 'advanced',
+  word: 'raise privacy concerns',
+  emoji: '🔒',
+  phonetic: '/reɪz ˈpraɪvəsi kənˈsɜːrnz/',
+  definition: '引发隐私担忧',
+  example: 'Facial recognition can raise privacy concerns if it is not regulated.'
+};
+
+export const word_play_an_important_role_in: Word = {
+  group: '口语高频实用词组',
+  category: 'advanced',
+  word: 'play an important role in',
+  emoji: '🎯',
+  phonetic: '/pleɪ ən ɪmˈpɔːrtnt roʊl ɪn/',
+  definition: '在……中扮演重要角色',
+  example: 'Technology plays an important role in education and healthcare.'
+};
+
+export const word_have_a_great_impact_on: Word = {
+  group: '口语高频实用词组',
+  category: 'advanced',
+  word: 'have a great impact on',
+  emoji: '💥',
+  phonetic: '/hæv ə ɡreɪt ˈɪmpækt ɒn/',
+  definition: '对……有很大影响',
+  example: 'Social media can have a great impact on teenagers\' self-esteem.'
+};
+
+export const word_rely_heavily_on_technology: Word = {
+  group: '口语高频实用词组',
+  category: 'advanced',
+  word: 'rely heavily on technology',
+  emoji: '🔌',
+  phonetic: '/rɪˈlaɪ ˈhevɪli ɒn tekˈnɒlədʒi/',
+  definition: '高度依赖科技',
+  example: 'Many people rely heavily on technology for work, study, and entertainment.'
 };
 
 export const technologyWordList: WordList = {
@@ -699,16 +900,38 @@ export const technologyWordList: WordList = {
     word_biometric,
 
     // --- 科技影响与未来 ---
+    word_smart_city,
+    word_sustainable_technology,
+    word_quality_of_life,
     word_update,
     word_screen_time,
     word_viral,
     word_user_friendly,
     word_breakthrough,
+    word_digital_transformation,
+    word_ethical_issues,
+    word_job_displacement,
+    word_future_workforce,
+    word_technological_gap,
+    word_social_impact,
+    word_tech_dependence,
     word_innovative,
     word_revolutionize,
     word_obsolete,
     word_information_overload,
     word_netiquette,
     word_sophisticated,
+
+    // --- 口语高频实用词组 ---
+    word_keep_up_with_technology,
+    word_bring_convenience_to_daily_life,
+    word_improve_efficiency,
+    word_save_time_and_energy,
+    word_change_the_way_we_live,
+    word_become_part_of_daily_life,
+    word_raise_privacy_concerns,
+    word_play_an_important_role_in,
+    word_have_a_great_impact_on,
+    word_rely_heavily_on_technology,
   ],
 };
