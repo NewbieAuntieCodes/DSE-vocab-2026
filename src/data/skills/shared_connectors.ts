@@ -23,8 +23,8 @@ export const word_sum_up: Word = {
   word: 'sum up',
   emoji: '✍️',
   phonetic: '/sʌm ʌp/',
-  definition: '总结；概括',
-  example: 'To sum up, we need to improve our communication.',
+  definition: '（动词短语）总结；归纳',
+  example: 'Let me sum up the main points.',
   category: 'basic'
 };
 
@@ -32,7 +32,7 @@ export const word_summarize: Word = {
   word: 'summarize',
   emoji: '📝',
   phonetic: '/ˈsʌməraɪz/',
-  definition: '总结；概括',
+  definition: '（正式动词）概述；概括',
   example: 'Could you summarize the main points of the meeting?',
   category: 'advanced'
 };
@@ -41,7 +41,7 @@ export const word_in_summary: Word = {
   word: 'in summary',
   emoji: '📋',
   phonetic: '/ɪn ˈsʌməri/',
-  definition: '总括而言',
+  definition: '（衔接词）总之；总括而言',
   example: 'In summary, the project was a great success.',
   category: 'advanced'
 };
@@ -50,7 +50,7 @@ export const word_to_sum_up: Word = {
   word: 'to sum up',
   emoji: '🔚',
   phonetic: '/tu sʌm ʌp/',
-  definition: '总而言之',
+  definition: '（衔接词）总而言之；综上所述',
   example: 'To sum up, everyone has a role to play in environmental protection.',
   category: 'basic'
 };
