@@ -1,5 +1,6 @@
+
 import React, { useState, useEffect, useCallback } from 'react';
-import { styled, keyframes, css } from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 import { Word } from '../../types';
 import { PracticeMode, PracticeQuestion } from '../../pages/LearnPage/types';
 import { createPracticeQuestions, speak } from '../../pages/LearnPage/utils';

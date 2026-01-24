@@ -236,6 +236,16 @@ export const word_skip_class: Word = {
   category: 'basic'
 };
 
+// Exported for use in other word lists (e.g. technology.ts)
+export const word_online_learning: Word = { 
+  word: 'online learning', 
+  emoji: '💻', 
+  phonetic: '/ˈɒnlaɪn ˈlɜːrnɪŋ/', 
+  definition: '在线学习', 
+  example: 'Online learning has become more popular in recent years.', 
+  category: 'basic' 
+};
+
 export const learningWordList: WordList = {
   id: 'dse-learning',
   title: 'DSE口语 - 学习类',
@@ -269,7 +279,7 @@ export const learningWordList: WordList = {
     { word: 'extracurriculum', emoji: '🏀', phonetic: '/ˌekstrəkəˈrɪkjələm/', definition: '课外课程；课外活动', example: 'The school offers a rich extracurriculum to develop students\' interests.', category: 'advanced' },
     { word: 'manage time', emoji: '⏰', phonetic: '/ˈmænɪdʒ taɪm/', definition: '管理时间', example: 'It is important for students to learn how to manage their time effectively.', category: 'basic' },
     { word: 'time management', emoji: '⏳', phonetic: '/taɪm ˈmænɪdʒmənt/', definition: '时间管理', example: 'Good time management skills are essential for success in university.', category: 'basic' },
-    { word: 'online learning', emoji: '💻', phonetic: '/ˈɒnlaɪn ˈlɜːrnɪŋ/', definition: '在线学习', example: 'Online learning has become more popular in recent years.', category: 'basic' },
+    word_online_learning,
     { word: 'efficient', emoji: '⚡️', phonetic: '/ɪˈfɪʃnt/', definition: '有效率的', example: 'We need a more efficient way to handle these tasks.', category: 'advanced' },
     { word: 'efficiency', emoji: '⚙️', phonetic: '/ɪ|ˈfɪʃnsi/', definition: '效率', example: 'The new system has greatly improved the efficiency of our work.', category: 'advanced' },
     { word: 'lifestyle', emoji: '🏃‍♀️', phonetic: '/ˈlaɪfstaɪl/', definition: '生活方式', example: 'A healthy lifestyle includes a balanced diet and regular exercise.', category: 'basic' },

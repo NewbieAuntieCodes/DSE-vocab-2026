@@ -89,9 +89,9 @@ export const theme = {
 type ThemeType = typeof theme;
 
 // Augment styled-components to provide full type safety for the theme object.
-// Use a default import above to ensure the module is found by the TypeScript compiler.
-// Double quotes for the module name can help in certain linting or compilation environments.
-declare module "styled-components" {
+// We use a side-effect import to ensure the module is available for augmentation.
+import 'styled-components';
+declare module 'styled-components' {
   export interface DefaultTheme extends ThemeType {}
 }
 

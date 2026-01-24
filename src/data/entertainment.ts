@@ -2,6 +2,16 @@
 import React from 'react';
 import { WordList, Word } from '../types';
 
+// Exported for use in other word lists (e.g. technology.ts)
+export const word_privacy: Word = { 
+  word: 'privacy', 
+  emoji: '🔒', 
+  phonetic: '/ˈpraɪvəsi/', 
+  definition: '隐私', 
+  example: 'Celebrities often struggle to maintain their privacy.',
+  category: 'basic'
+};
+
 export const word_reviews: Word = { 
   word: 'reviews', 
   emoji: '⭐', 
@@ -21,14 +31,7 @@ export const entertainmentWordList: WordList = {
   emoji: '🌟',
   words: [
     // 基础词汇 (Basic Vocabulary)
-    { 
-      word: 'privacy', 
-      emoji: '🔒', 
-      phonetic: '/ˈpraɪvəsi/', 
-      definition: '隐私', 
-      example: 'Celebrities often struggle to maintain their privacy.',
-      category: 'basic'
-    },
+    word_privacy,
     { 
       word: 'celebrity', 
       emoji: '🌟', 

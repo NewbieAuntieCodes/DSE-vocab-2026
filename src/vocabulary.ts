@@ -10,6 +10,7 @@ import { workWordList } from './data/work';
 import { socialWordList } from './data/social';
 import { societyWordList } from './data/society';
 import { travelWordList } from './data/travel';
+import { technologyWordList } from './data/technology';
 import {
     skillsUnit1,
     skillsUnit2,
@@ -26,6 +27,7 @@ export const wordLists: WordList[] = [
     learningWordList,
     sportsWordList,
     environmentalWordList,
+    technologyWordList,
     cityWordList,
     entertainmentWordList,
     workWordList,

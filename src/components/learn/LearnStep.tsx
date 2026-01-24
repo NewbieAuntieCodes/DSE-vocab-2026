@@ -1,5 +1,6 @@
+
 import React, { useState, useEffect, useCallback } from 'react';
-import { styled, keyframes, css } from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 import { WordList } from '../../types';
 import { speak } from '../../pages/LearnPage/utils';
 import { PrevIcon, NextIcon, SpeakerIcon } from '../Icons';

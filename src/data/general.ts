@@ -129,6 +129,16 @@ export const word_available: Word = {
   category: 'basic'
 };
 
+// Exported for use in other word lists (e.g. technology.ts)
+export const word_access: Word = { 
+  word: 'access', 
+  emoji: '🔑', 
+  phonetic: '/ˈækses/', 
+  definition: '进入；使用权', 
+  example: 'You need a password to access the computer system.',
+  category: 'advanced'
+};
+
 export const generalWordList: WordList = {
   id: 'general-topics',
   title: '综合主题',
@@ -158,14 +168,7 @@ export const generalWordList: WordList = {
       example: 'She is very mature for her age.',
       category: 'advanced'
     },
-    { 
-      word: 'access', 
-      emoji: '🔑', 
-      phonetic: '/ˈækses/', 
-      definition: '进入；使用权', 
-      example: 'You need a password to access the computer system.',
-      category: 'advanced'
-    },
+    word_access,
     word_recommend,
     word_inexpensive,
     word_regularly,

@@ -3,7 +3,7 @@ import { SkillsTopicIllustration } from '../../components/Illustrations';
 
 export const skillsUnit7: WordList = {
   id: 'skills-unit-7',
-  title: 'Unit 7: 请求澄清',
+  title: 'Unit 7',
   description: '学习在不理解时如何礼貌地请求解释。',
   illustration: SkillsTopicIllustration,
   theme: 'skills',

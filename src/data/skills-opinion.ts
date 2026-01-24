@@ -1,7 +1,6 @@
 import React from 'react';
 import { WordList } from '../types';
 import {
-    // FIX: 'SkillsOpinionTopicIllustration' is not exported. Using the suggested 'SkillsTopicIllustration'.
     SkillsTopicIllustration,
     WordIllustrationCard,
     OpinionIcon,
@@ -15,7 +14,6 @@ export const skillsOpinionWordList: WordList = {
   title: '发表意见',
   description: '学习如何清晰、有力地表达你的观点和看法。',
   illustration: SkillsTopicIllustration,
-  // FIX: The type '"games"' is not assignable to theme's type of '"learn" | "skills"'. Changed to 'skills'.
   theme: 'skills',
   category: 'skills',
   words: [

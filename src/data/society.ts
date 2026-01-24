@@ -11,6 +11,17 @@ export const word_community: Word = {
   category: 'basic'
 };
 
+// Exported for use in other word lists (e.g. technology.ts)
+export const word_cybercrime: Word = {
+  group: '犯罪与法律',
+  word: 'cybercrime',
+  emoji: '💻⚠️',
+  phonetic: '/ˈsaɪbərkraɪm/',
+  definition: '网络犯罪',
+  example: 'Cybercrime has become a significant threat in the digital age.',
+  category: 'basic'
+};
+
 export const societyWordList: WordList = {
   id: 'dse-society',
   title: 'DSE口语 - 社会类',
@@ -123,15 +134,7 @@ export const societyWordList: WordList = {
       example: 'Early intervention can help prevent juvenile delinquency.',
       category: 'advanced'
     },
-    {
-      group: '犯罪与法律',
-      word: 'cybercrime',
-      emoji: '💻⚠️',
-      phonetic: '/ˈsaɪbərkraɪm/',
-      definition: '网络犯罪',
-      example: 'Cybercrime has become a significant threat in the digital age.',
-      category: 'basic'
-    },
+    word_cybercrime,
     {
       group: '犯罪与法律',
       word: 'recidivism',

@@ -1,6 +1,5 @@
 
-# 忽略 GitHub Actions 文件夹，避免 AI Studio 同步检测
-.github/
+# 忽略 GitHub Actions 文件夹，避免 AI Studio 同
 
 # 忽略依赖和构建产物
 node_modules/

@@ -3,7 +3,7 @@ import { SkillsTopicIllustration } from '../../components/Illustrations';
 
 export const skillsUnit4: WordList = {
   id: 'skills-unit-4',
-  title: 'Unit 4: 比较与对比',
+  title: 'Unit 4',
   description: '学习如何有效地比较事物之间的异同。',
   illustration: SkillsTopicIllustration,
   theme: 'skills',

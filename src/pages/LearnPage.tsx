@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { styled, keyframes } from 'styled-components';
 import { Page, Word } from '../types';
@@ -44,22 +43,49 @@ const LearnPage: React.FC<{ topicId: string, navigateTo: (page: Page) => void }>
         });
     };
 
-    // Function to handle copying selected words
+    // Function to handle copying selected words with structured format
     const handleCopySelectedWords = () => {
         if (selectedWords.length === 0) return;
 
-        const textToCopy = selectedWords
-            .map(word => {
-                const parts = [word.word, word.phonetic];
-                if (word.emoji) {
-                    parts.push(word.emoji);
-                }
-                parts.push(word.definition);
-                return parts.join(' ');
-            })
-            .join('\n');
+        // 1. Group words by their "group" property
+        const groupMap = new Map<string, { basic: Word[], advanced: Word[] }>();
+        
+        selectedWords.forEach(word => {
+            const groupName = word.group || '其他分类';
+            if (!groupMap.has(groupName)) {
+                groupMap.set(groupName, { basic: [], advanced: [] });
+            }
+            const groupData = groupMap.get(groupName)!;
+            if (word.category === 'advanced') {
+                groupData.advanced.push(word);
+            } else {
+                groupData.basic.push(word);
+            }
+        });
 
-        navigator.clipboard.writeText(textToCopy).then(
+        // 2. Build the structured text string
+        let textToCopy = '';
+        groupMap.forEach((data, groupName) => {
+            textToCopy += `${groupName}\n`;
+            
+            if (data.basic.length > 0) {
+                textToCopy += `基础词汇：\n`;
+                data.basic.forEach(word => {
+                    textToCopy += `${word.word} ${word.phonetic} ${word.emoji || ''} ${word.definition}\n`;
+                });
+            }
+            
+            if (data.advanced.length > 0) {
+                textToCopy += `进阶词汇：\n`;
+                data.advanced.forEach(word => {
+                    textToCopy += `${word.word} ${word.phonetic} ${word.emoji || ''} ${word.definition}\n`;
+                });
+            }
+            
+            textToCopy += `\n`; // Add space between main groups
+        });
+
+        navigator.clipboard.writeText(textToCopy.trim()).then(
             () => {
                 setCopyStatus('已复制！');
                 setTimeout(() => setCopyStatus(''), 2000);
@@ -308,6 +334,12 @@ const PageHeader = styled.header`
     position: relative; text-align: center; margin-bottom: 2rem; display: flex; align-items: center; justify-content: center;
     h1 { margin: 0; font-size: 2.5rem; font-weight: 700; color: ${({ theme }) => theme.colors.header}; }
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) { h1 { font-size: 1.75rem; } }
+`;
+
+const BackArrowContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 const BackButton = styled.button`
