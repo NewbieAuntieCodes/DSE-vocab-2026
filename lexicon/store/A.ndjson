@@ -1,5 +1,7 @@
 {"id":"word_academic","word":"academic","phonetic":"/ˌækəˈdemɪk/","definition":"学术的；学院的","example":"Her academic performance has been excellent.","emoji":"🎓","category":"advanced"}
 {"id":"word_access","word":"access","phonetic":"/ˈækses/","definition":"进入；使用权","example":"You need a password to access the computer system.","emoji":"🔑","category":"advanced"}
+{"id":"word_accessible","word":"accessible","emoji":"🔓","phonetic":"/əkˈsesəbl/","definition":"可获得的；易接近的；无障碍的","example":"Public sports facilities should be accessible to everyone.","category":"advanced"}
+{"id":"word_achieve_goal","word":"achieve goal","emoji":"🎯","phonetic":"/əˈtʃiːv ɡoʊl/","definition":"实现目标","example":"Setting a plan helps you achieve your goal.","category":"basic"}
 {"id":"word_achievement","word":"achievement","phonetic":"/əˈtʃiːvmənt/","definition":"成就","example":"Winning the competition was a great achievement.","emoji":"🏅","category":"advanced"}
 {"id":"word_admire","word":"admire","phonetic":"/ədˈmaɪər/","definition":"钦佩；欣赏","example":"I really admire her for her courage.","emoji":"🤩"}
 {"id":"word_adventure","word":"adventure","emoji":"🗺️","phonetic":"/ədˈventʃər/","definition":"冒险；奇遇","example":"Travelling alone can be an exciting adventure.","category":"basic"}

@@ -1,5 +1,6 @@
 import type { Word } from '../../../types';
 
+export const word_capture_attention: Word = { word: "capture attention", emoji: "👀", phonetic: "/ˈkæptʃər əˈtenʃn/", definition: "吸引注意力", example: "A strong opening can capture the examiner's attention.", category: "advanced" };
 export const word_career: Word = { word: "career", emoji: "🚀", phonetic: "/kəˈrɪər/", definition: "职业；生涯", example: "He is focused on building a successful career in finance." };
 export const word_catch: Word = { word: "catch", emoji: "⚾", phonetic: "/kætʃ/", definition: "接住", example: "The player made an amazing catch to save the game." };
 export const word_catch_up: Word = { word: "catch up", emoji: "☕️", phonetic: "/kætʃ ʌp/", definition: "叙旧；了解近况", example: "Let's meet for coffee and catch up.", category: "basic" };

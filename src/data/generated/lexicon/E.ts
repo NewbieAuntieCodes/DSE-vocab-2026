@@ -7,6 +7,7 @@ export const word_electric_vehicle: Word = { word: "electric vehicle", emoji: "�
 export const word_emotion: Word = { word: "emotion", emoji: "😊😢", phonetic: "/ɪˈmoʊʃn/", definition: "情感；情绪", example: "He finds it hard to express his emotions." };
 export const word_emotional: Word = { word: "emotional", emoji: "😊😢", phonetic: "/ɪˈmoʊʃnəl/", definition: "情绪化的；情感的", example: "It was a very emotional moment for the whole family.", category: "basic" };
 export const word_employee: Word = { word: "employee", emoji: "🧑‍💼", phonetic: "/ɪmˈplɔɪiː/", definition: "雇员", example: "The company has over 500 employees." };
+export const word_encourage: Word = { word: "encourage", emoji: "🙌", phonetic: "/ɪnˈkʌrɪdʒ/", definition: "鼓励；激励", example: "Teachers should encourage students to speak more English.", category: "basic" };
 export const word_encouragement: Word = { word: "encouragement", emoji: "👏", phonetic: "/ɪnˈkʌrɪdʒmənt/", definition: "鼓励", example: "A little encouragement can go a long way.", category: "basic" };
 export const word_endangered: Word = { word: "endangered", emoji: "🐼", phonetic: "/ɪnˈdeɪndʒərd/", definition: "濒临灭绝的", example: "Giant pandas are an endangered species.", category: "advanced" };
 export const word_endorphin: Word = { word: "endorphin", emoji: "😄", phonetic: "/enˈdɔːrfɪn/", definition: "内啡肽", example: "Running releases endorphins, which can make you feel happy." };

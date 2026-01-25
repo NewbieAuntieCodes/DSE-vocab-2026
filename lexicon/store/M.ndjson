@@ -3,6 +3,8 @@
 {"id":"word_manage_time","word":"manage time","phonetic":"/ˈmænɪdʒ taɪm/","definition":"管理时间","example":"It is important for students to learn how to manage their time effectively.","emoji":"⏰","category":"basic"}
 {"id":"word_mature","word":"mature","phonetic":"/məˈtʃʊər/","definition":"成熟的","example":"She is very mature for her age.","emoji":"🌳","category":"advanced"}
 {"id":"word_maturity","word":"maturity","phonetic":"/məˈtʃʊərəti/","definition":"成熟","example":"He showed great maturity in dealing with the situation.","emoji":"🌳","category":"advanced"}
+{"id":"word_medal","word":"medal","emoji":"🏅","phonetic":"/ˈmedl/","definition":"奖牌","example":"He won a gold medal in the competition.","category":"basic"}
+{"id":"word_medalist","word":"medalist","emoji":"🥇","phonetic":"/ˈmedəlɪst/","definition":"奖牌获得者","example":"The medalist thanked her coach and teammates.","category":"advanced"}
 {"id":"word_media","word":"media","phonetic":"/ˈmiːdiə/","definition":"媒体","example":"The social media coverage of the event was huge.","emoji":"📱","category":"basic"}
 {"id":"word_meet_ups","word":"meet-ups","phonetic":"/miːt ʌps/","definition":"聚会；见面","example":"Regular meet-ups help friends stay close.","emoji":"☕","category":"basic"}
 {"id":"word_member","word":"member","phonetic":"/ˈmembər/","definition":"成员","example":"He is a new member of our team.","emoji":"🆔","category":"basic"}

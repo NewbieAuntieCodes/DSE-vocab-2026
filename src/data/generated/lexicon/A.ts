@@ -2,6 +2,8 @@ import type { Word } from '../../../types';
 
 export const word_academic: Word = { word: "academic", emoji: "🎓", phonetic: "/ˌækəˈdemɪk/", definition: "学术的；学院的", example: "Her academic performance has been excellent.", category: "advanced" };
 export const word_access: Word = { word: "access", emoji: "🔑", phonetic: "/ˈækses/", definition: "进入；使用权", example: "You need a password to access the computer system.", category: "advanced" };
+export const word_accessible: Word = { word: "accessible", emoji: "🔓", phonetic: "/əkˈsesəbl/", definition: "可获得的；易接近的；无障碍的", example: "Public sports facilities should be accessible to everyone.", category: "advanced" };
+export const word_achieve_goal: Word = { word: "achieve goal", emoji: "🎯", phonetic: "/əˈtʃiːv ɡoʊl/", definition: "实现目标", example: "Setting a plan helps you achieve your goal.", category: "basic" };
 export const word_achievement: Word = { word: "achievement", emoji: "🏅", phonetic: "/əˈtʃiːvmənt/", definition: "成就", example: "Winning the competition was a great achievement.", category: "advanced" };
 export const word_admire: Word = { word: "admire", emoji: "🤩", phonetic: "/ədˈmaɪər/", definition: "钦佩；欣赏", example: "I really admire her for her courage." };
 export const word_adventure: Word = { word: "adventure", emoji: "🗺️", phonetic: "/ədˈventʃər/", definition: "冒险；奇遇", example: "Travelling alone can be an exciting adventure.", category: "basic" };

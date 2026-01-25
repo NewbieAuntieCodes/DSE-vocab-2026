@@ -5,6 +5,7 @@
 {"id":"word_emotion","word":"emotion","phonetic":"/ɪˈmoʊʃn/","definition":"情感；情绪","example":"He finds it hard to express his emotions.","emoji":"😊😢"}
 {"id":"word_emotional","word":"emotional","phonetic":"/ɪˈmoʊʃnəl/","definition":"情绪化的；情感的","example":"It was a very emotional moment for the whole family.","emoji":"😊😢","category":"basic"}
 {"id":"word_employee","word":"employee","phonetic":"/ɪmˈplɔɪiː/","definition":"雇员","example":"The company has over 500 employees.","emoji":"🧑‍💼"}
+{"id":"word_encourage","word":"encourage","emoji":"🙌","phonetic":"/ɪnˈkʌrɪdʒ/","definition":"鼓励；激励","example":"Teachers should encourage students to speak more English.","category":"basic"}
 {"id":"word_encouragement","word":"encouragement","phonetic":"/ɪnˈkʌrɪdʒmənt/","definition":"鼓励","example":"A little encouragement can go a long way.","emoji":"👏","category":"basic"}
 {"id":"word_endangered","word":"endangered","phonetic":"/ɪnˈdeɪndʒərd/","definition":"濒临灭绝的","example":"Giant pandas are an endangered species.","emoji":"🐼","category":"advanced"}
 {"id":"word_endorphin","word":"endorphin","phonetic":"/enˈdɔːrfɪn/","definition":"内啡肽","example":"Running releases endorphins, which can make you feel happy.","emoji":"😄"}
