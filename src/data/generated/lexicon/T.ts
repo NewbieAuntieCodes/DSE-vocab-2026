@@ -16,6 +16,7 @@ export const word_tough: Word = { word: "tough", emoji: "🪨", phonetic: "/tʌf
 export const word_tournament: Word = { word: "tournament", emoji: "🏆", phonetic: "/ˈtʊrnəmənt/", definition: "锦标赛", example: "Teams from all over the world compete in the tournament." };
 export const word_trail: Word = { word: "trail", emoji: "🌲", phonetic: "/treɪl/", definition: "小径；步道", example: "The trail through the forest is safe and well-marked.", category: "basic" };
 export const word_trainers: Word = { word: "trainers", emoji: "👟", phonetic: "/ˈtreɪnərz/", definition: "(英式)运动鞋", example: "He bought a new pair of trainers for playing basketball." };
+export const word_training: Word = { word: "training", emoji: "🏋️", phonetic: "/ˈtreɪnɪŋ/", definition: "训练；培训", example: "Regular training helps athletes improve their performance.", category: "basic" };
 export const word_trendy: Word = { word: "trendy", emoji: "🔥", phonetic: "/ˈtrendi/", definition: "时髦的；流行的", example: "Short videos are trendy among teenagers.", category: "basic" };
 export const word_tunnel: Word = { word: "tunnel", emoji: "🚇", phonetic: "/ˈtʌnl/", definition: "隧道", example: "The train goes through a long tunnel under the mountain." };
 export const word_tutor: Word = { word: "tutor", emoji: "🧑‍🏫", phonetic: "/ˈtuːtər/", definition: "导师；家庭教师", example: "My parents hired a tutor to help me with my math.", category: "basic" };

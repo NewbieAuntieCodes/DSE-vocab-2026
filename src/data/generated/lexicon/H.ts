@@ -7,5 +7,6 @@ export const word_heavy_tax: Word = { word: "heavy tax", emoji: "💸", phonetic
 export const word_helmet: Word = { word: "helmet", emoji: "⛑️", phonetic: "/ˈhelmɪt/", definition: "头盔", example: "It's important to wear a helmet when you ride a bike.", category: "basic" };
 export const word_hiking: Word = { word: "hiking", emoji: "🥾", phonetic: "/ˈhaɪkɪŋ/", definition: "徒步旅行；远足", example: "We went hiking in the countryside last weekend.", category: "basic" };
 export const word_hit: Word = { word: "hit", emoji: "🏏", phonetic: "/hɪt/", definition: "击打", example: "She hit the ball over the net." };
+export const word_hongkonger: Word = { word: "Hongkonger", emoji: "🇭🇰", phonetic: "/ˌhɒŋˈkɒŋər/", definition: "香港人", example: "As a Hongkonger, I enjoy the city's convenient transport system.", category: "basic" };
 export const word_horizon: Word = { word: "horizon", emoji: "🌅", phonetic: "/həˈraɪzn/", definition: "地平线；眼界", example: "Studying abroad expanded my intellectual horizons.", category: "advanced" };
 export const word_how_about: Word = { word: "How about", emoji: "🤔", phonetic: "/haʊ əˈbaʊt/", definition: "（提出建议）……怎么样？", example: "How about going to the movies tonight?", category: "basic" };
