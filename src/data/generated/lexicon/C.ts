@@ -10,6 +10,7 @@ export const word_closer: Word = { word: "closer", emoji: "🤗", phonetic: "/ˈ
 export const word_collaborate: Word = { word: "collaborate", emoji: "🤝", phonetic: "/kəˈlæbəreɪt/", definition: "合作", example: "The two companies will collaborate on the new project." };
 export const word_colleague: Word = { word: "colleague", emoji: "👥", phonetic: "/ˈkɒliːɡ/", definition: "同事", example: "I get along well with all of my colleagues at work." };
 export const word_agreement: Word = { word: "come to an agreement", emoji: "🤝", phonetic: "/kʌm tu ən əˈɡriːmənt/", definition: "达成共识", example: "After a long discussion, they finally came to an agreement.", category: "advanced" };
+export const word_community: Word = { word: "community", emoji: "🏘️", phonetic: "/kəˈmjuːnəti/", definition: "社区；群体", example: "Community centers often organize activities for teenagers.", category: "basic" };
 export const word_commute: Word = { word: "commute", emoji: "🚗", phonetic: "/kəˈmjuːt/", definition: "通勤", example: "My daily commute to work takes about an hour." };
 export const word_confidence: Word = { word: "confidence", emoji: "😎", phonetic: "/ˈkɒnfɪdəns/", definition: "自信", example: "Having confidence in yourself is key to success." };
 export const word_connect_with_nature: Word = { word: "connect with nature", emoji: "🌳", phonetic: "/kəˈnekt wɪð ˈneɪtʃər/", definition: "与大自然连接", example: "Spending time outdoors helps me connect with nature.", category: "basic" };

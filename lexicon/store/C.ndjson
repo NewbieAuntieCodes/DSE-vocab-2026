@@ -8,6 +8,7 @@
 {"id":"word_collaborate","word":"collaborate","phonetic":"/kəˈlæbəreɪt/","definition":"合作","example":"The two companies will collaborate on the new project.","emoji":"🤝"}
 {"id":"word_colleague","word":"colleague","phonetic":"/ˈkɒliːɡ/","definition":"同事","example":"I get along well with all of my colleagues at work.","emoji":"👥"}
 {"id":"word_agreement","word":"come to an agreement","phonetic":"/kʌm tu ən əˈɡriːmənt/","definition":"达成共识","example":"After a long discussion, they finally came to an agreement.","emoji":"🤝","category":"advanced"}
+{"id":"word_community","word":"community","emoji":"🏘️","phonetic":"/kəˈmjuːnəti/","definition":"社区；群体","example":"Community centers often organize activities for teenagers.","category":"basic"}
 {"id":"word_commute","word":"commute","phonetic":"/kəˈmjuːt/","definition":"通勤","example":"My daily commute to work takes about an hour.","emoji":"🚗"}
 {"id":"word_confidence","word":"confidence","phonetic":"/ˈkɒnfɪdəns/","definition":"自信","example":"Having confidence in yourself is key to success.","emoji":"😎"}
 {"id":"word_connect_with_nature","word":"connect with nature","phonetic":"/kəˈnekt wɪð ˈneɪtʃər/","definition":"与大自然连接","example":"Spending time outdoors helps me connect with nature.","emoji":"🌳","category":"basic"}

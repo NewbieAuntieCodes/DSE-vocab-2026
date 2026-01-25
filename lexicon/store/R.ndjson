@@ -1,3 +1,4 @@
+{"id":"word_realize","word":"realize","emoji":"💡","phonetic":"/ˈrɪəlaɪz/","definition":"意识到；认识到","example":"I didn't realize how important daily practice was until the exam.","category":"basic"}
 {"id":"word_receive","word":"receive","phonetic":"/rɪˈsiːv/","definition":"收到；接收","example":"Did you receive my email?","emoji":"📥","category":"basic"}
 {"id":"word_recharge","word":"recharge","phonetic":"/ˌriːˈtʃɑːrdʒ/","definition":"充电；恢复精力","example":"I need a weekend getaway to recharge my batteries.","emoji":"🔋","category":"basic"}
 {"id":"word_recognize","word":"recognize","phonetic":"/ˈrekəɡnaɪz/","definition":"认出；承认","example":"It is important to recognize the contributions of others.","emoji":"👀"}
@@ -22,6 +23,7 @@
 {"id":"word_reuse","word":"reuse","phonetic":"/ˌriːˈjuːz/","definition":"重复使用 (动词)","example":"You can reuse glass jars for storing food.","emoji":"🔄","category":"basic"}
 {"id":"word_reusing","word":"reusing","phonetic":"/ˌriːˈjuːzɪŋ/","definition":"重复使用 (名词)","example":"Reusing shopping bags is an easy way to reduce waste.","emoji":"🔄","category":"basic"}
 {"id":"word_reviews","word":"reviews","phonetic":"/rɪˈvjuːz/","definition":"评价；评论","example":"The movie received positive reviews from critics.","emoji":"⭐","category":"basic"}
+{"id":"word_rinks","word":"rinks","emoji":"⛸️","phonetic":"/rɪŋks/","definition":"溜冰场；冰场（复数）","example":"There are several ice rinks in the city where you can go skating.","category":"basic"}
 {"id":"word_rock_climbing","word":"rock climbing","emoji":"🧗‍♀️","phonetic":"/rɒk ˈklaɪmɪŋ/","definition":"攀岩","example":"Rock climbing is a great way to build strength and confidence.","category":"basic"}
 {"id":"word_role_model","word":"role model","phonetic":"/ˈroʊl ˌmɒdl/","definition":"榜样","example":"Many athletes are positive role models for young people.","emoji":"🌟"}
 {"id":"word_routine","word":"routine","emoji":"📋","phonetic":"/ruːˈtiːn/","definition":"常规；例行公事","example":"My morning routine includes jogging and a healthy breakfast.","category":"basic"}

@@ -1,5 +1,6 @@
 import type { Word } from '../../../types';
 
+export const word_effective: Word = { word: "effective", emoji: "✅", phonetic: "/ɪˈfektɪv/", definition: "有效的；奏效的", example: "Making a study plan is an effective way to improve your speaking.", category: "advanced" };
 export const word_efficiency: Word = { word: "efficiency", emoji: "⚙️", phonetic: "/ɪ|ˈfɪʃnsi/", definition: "效率", example: "The new system has greatly improved the efficiency of our work.", category: "advanced" };
 export const word_efficient: Word = { word: "efficient", emoji: "⚡️", phonetic: "/ɪˈfɪʃnt/", definition: "有效率的", example: "We need a more efficient way to handle these tasks.", category: "advanced" };
 export const word_electric_vehicle: Word = { word: "electric vehicle", emoji: "⚡️🚗", phonetic: "/ɪˈlektrɪk ˈviːəkl/", definition: "电动汽车", example: "The government offers subsidies to encourage people to buy electric vehicles.", category: "basic" };
@@ -15,6 +16,7 @@ export const word_environmental_education: Word = { word: "environmental educati
 export const word_environmental_pollution: Word = { word: "environmental pollution", emoji: "🌍💨", phonetic: "/ɪnˌvaɪrənˈmentl pəˈluːʃn/", definition: "环境污染", example: "Environmental pollution is a threat to both humans and animals.", category: "basic" };
 export const word_environmentally_friendly: Word = { word: "environmentally friendly", emoji: "🍃", phonetic: "/ɪnˌvaɪrənˈmentli ˈfrendli/", definition: "环保的", example: "We should choose environmentally friendly products whenever possible.", category: "basic" };
 export const word_establish: Word = { word: "establish", emoji: "🏗️", phonetic: "/ɪˈstæblɪʃ/", definition: "建立；创立", example: "It takes time to establish a good study routine.", category: "advanced" };
+export const word_event: Word = { word: "event", emoji: "📅", phonetic: "/ɪˈvent/", definition: "活动；事件", example: "Our school is holding a sports event next week.", category: "basic" };
 export const word_exchange: Word = { word: "exchange", emoji: "🔄", phonetic: "/ɪksˈtʃeɪndʒ/", definition: "交流；交换", example: "Cultural exchange programs help broaden your horizons.", category: "basic" };
 export const word_expert: Word = { word: "expert", emoji: "🧑‍🏫", phonetic: "/ˈekspɜːrt/", definition: "专家；行家", example: "Ask an expert if you are not sure what to do.", category: "advanced" };
 export const word_explore: Word = { word: "explore", emoji: "🧭", phonetic: "/ɪkˈsplɔːr/", definition: "探索；探险", example: "We plan to explore the old town on foot.", category: "basic" };

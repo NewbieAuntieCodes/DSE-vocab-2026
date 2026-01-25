@@ -1,5 +1,6 @@
 import type { Word } from '../../../types';
 
+export const word_realize: Word = { word: "realize", emoji: "💡", phonetic: "/ˈrɪəlaɪz/", definition: "意识到；认识到", example: "I didn't realize how important daily practice was until the exam.", category: "basic" };
 export const word_receive: Word = { word: "receive", emoji: "📥", phonetic: "/rɪˈsiːv/", definition: "收到；接收", example: "Did you receive my email?", category: "basic" };
 export const word_recharge: Word = { word: "recharge", emoji: "🔋", phonetic: "/ˌriːˈtʃɑːrdʒ/", definition: "充电；恢复精力", example: "I need a weekend getaway to recharge my batteries.", category: "basic" };
 export const word_recognize: Word = { word: "recognize", emoji: "👀", phonetic: "/ˈrekəɡnaɪz/", definition: "认出；承认", example: "It is important to recognize the contributions of others." };
@@ -24,6 +25,7 @@ export const word_reunion: Word = { word: "reunion", emoji: "🤝", phonetic: "/
 export const word_reuse: Word = { word: "reuse", emoji: "🔄", phonetic: "/ˌriːˈjuːz/", definition: "重复使用 (动词)", example: "You can reuse glass jars for storing food.", category: "basic" };
 export const word_reusing: Word = { word: "reusing", emoji: "🔄", phonetic: "/ˌriːˈjuːzɪŋ/", definition: "重复使用 (名词)", example: "Reusing shopping bags is an easy way to reduce waste.", category: "basic" };
 export const word_reviews: Word = { word: "reviews", emoji: "⭐", phonetic: "/rɪˈvjuːz/", definition: "评价；评论", example: "The movie received positive reviews from critics.", category: "basic" };
+export const word_rinks: Word = { word: "rinks", emoji: "⛸️", phonetic: "/rɪŋks/", definition: "溜冰场；冰场（复数）", example: "There are several ice rinks in the city where you can go skating.", category: "basic" };
 export const word_rock_climbing: Word = { word: "rock climbing", emoji: "🧗‍♀️", phonetic: "/rɒk ˈklaɪmɪŋ/", definition: "攀岩", example: "Rock climbing is a great way to build strength and confidence.", category: "basic" };
 export const word_role_model: Word = { word: "role model", emoji: "🌟", phonetic: "/ˈroʊl ˌmɒdl/", definition: "榜样", example: "Many athletes are positive role models for young people." };
 export const word_routine: Word = { word: "routine", emoji: "📋", phonetic: "/ruːˈtiːn/", definition: "常规；例行公事", example: "My morning routine includes jogging and a healthy breakfast.", category: "basic" };

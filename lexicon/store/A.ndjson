@@ -12,7 +12,7 @@
 {"id":"word_anxiety","word":"anxiety","phonetic":"/æŋˈzaɪəti/","definition":"焦虑；担心","example":"Public speaking often causes a lot of anxiety.","emoji":"😰","category":"advanced"}
 {"id":"word_appearance","word":"appearance","phonetic":"/əˈpɪərəns/","definition":"外貌；外观","example":"His smart appearance helped him make a good first impression.","emoji":"👕"}
 {"id":"word_appreciate","word":"appreciate","phonetic":"/əˈpriːʃieɪt/","definition":"欣赏；感激","example":"I really appreciate all the help you have given me.","emoji":"🙏"}
-{"id":"word_athlete","word":"athlete","phonetic":"/ˈæθliːt/","definition":"运动员","example":"She is a professional athlete who competes internationally.","emoji":"🏃‍♂️"}
+{"id":"word_athlete","word":"athlete","emoji":"🏃‍♂️","phonetic":"/ˈæθliːt/","definition":"运动员","example":"She is a professional athlete who competes internationally.","category":"basic"}
 {"id":"word_attend","word":"attend","phonetic":"/əˈtend/","definition":"出席；参加","example":"All students are required to attend the assembly.","emoji":"🏫","category":"basic"}
 {"id":"word_attitude","word":"attitude","phonetic":"/ˈætɪtjuːd/","definition":"态度","example":"A positive attitude is important for success in learning.","emoji":"😊","category":"basic"}
 {"id":"word_audience","word":"audience","phonetic":"/ˈɔːdiəns/","definition":"观众","example":"The audience cheered loudly at the end of the play.","emoji":"👏","category":"basic"}
