@@ -1,6 +1,29 @@
 import { WordList } from '../../types';
 import { SkillsTopicIllustration } from '../../components/Illustrations';
-import { word_for_example, word_for_instance } from '../lexicon';
+import {
+  word_adventure,
+  word_adventurous,
+  word_catch_up,
+  word_countryside,
+  word_cycling,
+  word_establish,
+  word_expert,
+  word_explore,
+  word_for_example,
+  word_for_instance,
+  word_hiking,
+  word_helmet,
+  word_in_favour_of,
+  word_options,
+  word_pick,
+  word_regular,
+  word_rock_climbing,
+  word_routine,
+  word_scenery,
+  word_stay_fit,
+  word_thrill,
+  word_trail,
+} from '../lexicon';
 
 export const skillsUnit3: WordList = {
   id: 'skills-unit-3',
@@ -13,5 +36,25 @@ export const skillsUnit3: WordList = {
   words: [
     word_for_example,
     word_for_instance,
+    word_options,
+    word_hiking,
+    word_cycling,
+    word_rock_climbing,
+    word_scenery,
+    word_helmet,
+    word_expert,
+    word_catch_up,
+    word_explore,
+    word_trail,
+    word_thrill,
+    word_countryside,
+    word_pick,
+    word_adventure,
+    word_adventurous,
+    word_in_favour_of,
+    word_stay_fit,
+    word_establish,
+    word_regular,
+    word_routine,
   ],
 };

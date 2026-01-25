@@ -1,0 +1,23 @@
+import type { Word } from '../../../types';
+
+export const word_academic: Word = { word: "academic", emoji: "🎓", phonetic: "/ˌækəˈdemɪk/", definition: "学术的；学院的", example: "Her academic performance has been excellent.", category: "advanced" };
+export const word_access: Word = { word: "access", emoji: "🔑", phonetic: "/ˈækses/", definition: "进入；使用权", example: "You need a password to access the computer system.", category: "advanced" };
+export const word_achievement: Word = { word: "achievement", emoji: "🏅", phonetic: "/əˈtʃiːvmənt/", definition: "成就", example: "Winning the competition was a great achievement.", category: "advanced" };
+export const word_admire: Word = { word: "admire", emoji: "🤩", phonetic: "/ədˈmaɪər/", definition: "钦佩；欣赏", example: "I really admire her for her courage." };
+export const word_adventure: Word = { word: "adventure", emoji: "🗺️", phonetic: "/ədˈventʃər/", definition: "冒险；奇遇", example: "Travelling alone can be an exciting adventure.", category: "basic" };
+export const word_adventurous: Word = { word: "adventurous", emoji: "🧗", phonetic: "/ədˈventʃərəs/", definition: "爱冒险的；大胆的", example: "She is adventurous and loves trying new activities.", category: "advanced" };
+export const word_air_pollution: Word = { word: "air pollution", emoji: "😷", phonetic: "/eər pəˈluːʃn/", definition: "空气污染", example: "Air pollution from cars and factories is a serious health risk.", category: "basic" };
+export const word_air_quality: Word = { word: "air quality", emoji: "🍃", phonetic: "/eər ˈkwɒləti/", definition: "空气质量", example: "The government is taking steps to improve the city's air quality.", category: "basic" };
+export const word_allergy: Word = { word: "allergy", emoji: "🤧", phonetic: "/ˈælərdʒi/", definition: "过敏", example: "Poor air quality can worsen allergy symptoms for many people.", category: "basic" };
+export const word_annoying: Word = { word: "annoying", emoji: "😤", phonetic: "/əˈnɔɪɪŋ/", definition: "恼人的；讨厌的", example: "It is very annoying when the internet keeps cutting out.", category: "basic" };
+export const word_annual: Word = { word: "annual", emoji: "📅", phonetic: "/ˈænjuəl/", definition: "每年的；年度的", example: "The company holds an annual meeting every summer.", category: "basic" };
+export const word_anxiety: Word = { word: "anxiety", emoji: "😰", phonetic: "/æŋˈzaɪəti/", definition: "焦虑；担心", example: "Public speaking often causes a lot of anxiety.", category: "advanced" };
+export const word_appearance: Word = { word: "appearance", emoji: "👕", phonetic: "/əˈpɪərəns/", definition: "外貌；外观", example: "His smart appearance helped him make a good first impression." };
+export const word_appreciate: Word = { word: "appreciate", emoji: "🙏", phonetic: "/əˈpriːʃieɪt/", definition: "欣赏；感激", example: "I really appreciate all the help you have given me." };
+export const word_athlete: Word = { word: "athlete", emoji: "🏃‍♂️", phonetic: "/ˈæθliːt/", definition: "运动员", example: "She is a professional athlete who competes internationally." };
+export const word_attend: Word = { word: "attend", emoji: "🏫", phonetic: "/əˈtend/", definition: "出席；参加", example: "All students are required to attend the assembly.", category: "basic" };
+export const word_attitude: Word = { word: "attitude", emoji: "😊", phonetic: "/ˈætɪtjuːd/", definition: "态度", example: "A positive attitude is important for success in learning.", category: "basic" };
+export const word_audience: Word = { word: "audience", emoji: "👏", phonetic: "/ˈɔːdiəns/", definition: "观众", example: "The audience cheered loudly at the end of the play.", category: "basic" };
+export const word_available: Word = { word: "available", emoji: "✅", phonetic: "/əˈveɪləbl/", definition: "可获得的；有空的", example: "Are there any rooms available for tonight?", category: "basic" };
+export const word_avenue: Word = { word: "avenue", emoji: "🛣️", phonetic: "/ˈævənuː/", definition: "大道", example: "Fifth Avenue is a famous shopping street in New York." };
+export const word_avoidant_behavior: Word = { word: "avoidant behavior", emoji: "🚶‍♂️", phonetic: "/əˈvɔɪdənt bɪˈheɪvjər/", definition: "逃避行为", example: "Avoidant behavior can prevent people from solving their problems.", category: "advanced" };

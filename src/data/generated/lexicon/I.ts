@@ -1,0 +1,24 @@
+import type { Word } from '../../../types';
+
+export const word_i_dont_understand: Word = { word: "I don't understand", emoji: "🤷", phonetic: "/aɪ doʊnt ˌʌndərˈstænd/", definition: "（请求解释）我不明白", example: "I'm sorry, I don't understand the question.", category: "basic" };
+export const word_i_feel: Word = { word: "I feel", emoji: "😊", phonetic: "/aɪ fiːl/", definition: "（表达感受）我感觉……", example: "I feel very happy about the good news.", category: "basic" };
+export const word_i_suggest: Word = { word: "I suggest", emoji: "💡", phonetic: "/aɪ səˈdʒest/", definition: "（表达建议）我建议", example: "I suggest we take a short break before continuing.", category: "basic" };
+export const word_illness: Word = { word: "illness", emoji: "🤒", phonetic: "/ˈɪlnəs/", definition: "疾病", example: "He missed school due to a serious illness." };
+export const word_immune_system: Word = { word: "immune system", emoji: "🦠", phonetic: "/ɪˈmjuːn ˈsɪstəm/", definition: "免疫系统", example: "Vitamin C is known to support the immune system." };
+export const word_immunity: Word = { word: "immunity", emoji: "🛡️", phonetic: "/ɪˈmjuːnəti/", definition: "免疫力", example: "A healthy diet helps to build up your immunity." };
+export const word_implement: Word = { word: "implement", emoji: "✅", phonetic: "/ˈɪmplɪment/", definition: "实施；执行", example: "The government plans to implement stricter environmental regulations.", category: "advanced" };
+export const word_implement_taxes_on: Word = { word: "implement taxes on", emoji: "⚖️", phonetic: "/ˈɪmplɪment ˈtæksɪz ɒn/", definition: "对...征税", example: "The government plans to implement taxes on high-emission vehicles.", category: "advanced" };
+export const word_impression: Word = { word: "impression", emoji: "✨", phonetic: "/ɪmˈpreʃn/", definition: "印象", example: "He made a good impression on his first day at work." };
+export const word_in_conclusion: Word = { word: "In conclusion", emoji: "🏁", phonetic: "/ɪn kənˈkluːʒn/", definition: "（衔接词）总而言之；最后", example: "In conclusion, I believe we should move forward with the plan.", category: "basic" };
+export const word_in_favour_of: Word = { word: "in favour of", emoji: "👍", phonetic: "/ɪn ˈfeɪvər əv/", definition: "赞成；支持", example: "I am in favour of holding more outdoor classes.", category: "advanced" };
+export const word_in_summary: Word = { word: "in summary", emoji: "📋", phonetic: "/ɪn ˈsʌməri/", definition: "（衔接词）总之；总括而言", example: "In summary, the project was a great success.", category: "advanced" };
+export const word_inexpensive: Word = { word: "inexpensive", emoji: "🪙", phonetic: "/ˌɪnɪkˈspensɪv/", definition: "便宜的；不贵的", example: "There are many inexpensive ways to have fun in the city.", category: "basic" };
+export const word_influential: Word = { word: "influential", emoji: "💥", phonetic: "/ˌɪnfluˈenʃl/", definition: "有影响力的", example: "He is considered one of the most influential artists of his time.", category: "advanced" };
+export const word_infrastructure: Word = { word: "infrastructure", emoji: "🏗️", phonetic: "/ˈɪnfrəstrʌktʃər/", definition: "基础设施", example: "The city is investing in its infrastructure to support growth." };
+export const word_injury: Word = { word: "injury", emoji: "🤕", phonetic: "/ˈɪndʒəri/", definition: "受伤", example: "He suffered a knee injury while playing football." };
+export const word_insecure: Word = { word: "insecure", emoji: "😟", phonetic: "/ˌɪnsɪˈkjʊər/", definition: "不安全的；没信心的", example: "He felt insecure about his ability to do the job.", category: "advanced" };
+export const word_inspire: Word = { word: "inspire", emoji: "💡", phonetic: "/ɪnˈspaɪər/", definition: "激励；鼓舞", example: "His story of overcoming adversity inspired millions." };
+export const word_involvement: Word = { word: "involvement", emoji: "🙋", phonetic: "/ɪnˈvɒlvmənt/", definition: "参与；投入", example: "Community involvement is key to the success of this initiative.", category: "advanced" };
+export const word_irritating: Word = { word: "irritating", emoji: "💢", phonetic: "/ˈɪrɪteɪtɪŋ/", definition: "令人烦躁的；刺激的", example: "She has an irritating habit of interrupting people.", category: "advanced" };
+export const word_isolated: Word = { word: "isolated", emoji: "👤", phonetic: "/ˈaɪsəleɪtɪd/", definition: "孤立的；隔离的", example: "After moving to the new city, he felt very isolated." };
+export const word_it_makes_me_feel: Word = { word: "It makes me feel", emoji: "😄", phonetic: "/ɪt meɪks mi fiːl/", definition: "（表达感受）这让我感觉……", example: "Listening to classical music makes me feel relaxed.", category: "basic" };

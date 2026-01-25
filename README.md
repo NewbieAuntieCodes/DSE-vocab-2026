@@ -45,20 +45,27 @@
 
 本项目采用 **“原子化单词导出 (Atomic Word Export)”** 模式。
 
+### 快速更新（高频推荐）
+
+- **只用 `npm run dev`**：启动开发服务器时会自动生成词库，并监听 `lexicon/inbox.ndjson` 的改动自动更新
+- **只改一个入口**：把新增/修改的词条按 NDJSON（一行一个 JSON）写进 `lexicon/inbox.ndjson`，保存后会自动生成
+- **inbox 会被“消费”**：生成成功后 `lexicon/inbox.ndjson` 会自动清空（保留模板），属于正常行为
+- **手动生成（可选）**：需要单独生成时可运行 `npm run lexicon`
+- **不要手改生成文件**：`src/data/generated/lexicon/*` 属于产物，后续会被覆盖
+
 ### 1. 原子化定义 (唯一事实来源)
 **不要**直接在 `WordList` 的 `words` 数组里写死单词对象。
-请在对应的“主题文件”（如 `src/data/learning.ts`）中，将每个单词定义为独立的常量并导出。
+请把每个词条写进 `lexicon/inbox.ndjson`（或 `lexicon/store/*.ndjson`），运行 `npm run lexicon` 生成 `word_xxx` 常量，再在主题/单元里引用它。
+
+```json
+{"id":"word_knowledge","word":"knowledge","emoji":"🧠","phonetic":"/ˈnɒlɪdʒ/","definition":"知识","example":"Reading books is a great way to gain knowledge.","category":"basic"}
+```
 
 ```typescript
-// src/data/learning.ts (主题文件：作为“仓库”)
-export const word_knowledge = {
-  word: 'knowledge',
-  emoji: '🧠',
-  phonetic: '/ˈnɒlɪdʒ/',
-  definition: '知识',
-  example: 'Reading books is a great way to gain knowledge.',
-  category: 'basic'
-};
+// src/data/learning.ts (主题文件：作为“货架”)
+import { word_knowledge } from './lexicon';
+// ...
+// words: [word_knowledge]
 ```
 
 ### 2. 跨文件引用 (精选集模式)
@@ -66,7 +73,7 @@ export const word_knowledge = {
 
 ```typescript
 // src/data/skills/unit2.ts (单元文件：作为“货架”)
-import { word_knowledge } from '../learning'; 
+import { word_knowledge } from '../lexicon';
 
 export const skillsUnit2 = {
   id: 'skills-unit-2',
@@ -83,6 +90,7 @@ export const skillsUnit2 = {
    `npm install`
 2. 启动项目：
    `npm run dev`
+   - 会自动生成词库，并监听 `lexicon/inbox.ndjson`
 
 ## 技术栈
 

@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "lexicon": "node scripts/lexicon.cjs build",
+    "predev": "npm run lexicon",
+    "dev": "node scripts/dev.cjs",
+    "prebuild": "npm run lexicon",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",

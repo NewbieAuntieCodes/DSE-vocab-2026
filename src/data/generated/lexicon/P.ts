@@ -1,0 +1,24 @@
+import type { Word } from '../../../types';
+
+export const word_paparazzi: Word = { word: "paparazzi", emoji: "📸", phonetic: "/ˌpæpəˈrætsi/", definition: "狗仔队", example: "The paparazzi followed the actress throughout her vacation.", category: "advanced" };
+export const word_participate: Word = { word: "participate", emoji: "🙋‍♂️", phonetic: "/pɑːrˈtɪsɪpeɪt/", definition: "参加", example: "Everyone is encouraged to participate in the discussion." };
+export const word_passion: Word = { word: "passion", emoji: "❤️", phonetic: "/ˈpæʃn/", definition: "激情；热诚", example: "Music has always been his true passion.", category: "basic" };
+export const word_performance: Word = { word: "performance", emoji: "🎭", phonetic: "/pərˈfɔːrməns/", definition: "表演；表现", example: "The actor gave a brilliant performance in the new movie.", category: "basic" };
+export const word_persuade: Word = { word: "persuade", emoji: "🗣️", phonetic: "/pəˈsweɪd/", definition: "说服", example: "It is difficult to persuade people to change their habits.", category: "advanced" };
+export const word_petrol_vehicle: Word = { word: "petrol vehicle", emoji: "⛽️🚗", phonetic: "/ˈpetrəl ˈviːəkl/", definition: "汽油车", example: "Petrol vehicles are a major source of air pollution in cities.", category: "basic" };
+export const word_physical: Word = { word: "physical", emoji: "💪", phonetic: "/ˈfɪzɪkl/", definition: "身体的；物质的", example: "Regular physical activity is essential for good health." };
+export const word_physical_health: Word = { word: "physical health", emoji: "❤️‍🩹", phonetic: "/ˈfɪzɪkl helθ/", definition: "身体健康", example: "A balanced diet is crucial for maintaining good physical health." };
+export const word_pick: Word = { word: "pick", emoji: "🎯", phonetic: "/pɪk/", definition: "挑选；选择", example: "You can pick any topic you like for the speaking exam.", category: "basic" };
+export const word_plastic: Word = { word: "plastic", emoji: "🧴", phonetic: "/ˈplæstɪk/", definition: "塑料", example: "We should reduce our use of single-use plastic products.", category: "basic" };
+export const word_plastic_bags: Word = { word: "plastic bags", emoji: "🛍️", phonetic: "/ˈplæstɪk bæɡz/", definition: "塑料袋", example: "Many stores now charge for plastic bags to reduce waste.", category: "basic" };
+export const word_pollute: Word = { word: "pollute", emoji: "💨", phonetic: "/pəˈluːt/", definition: "污染 (动词)", example: "Factories that pollute the air and water should be fined.", category: "basic" };
+export const word_pollution: Word = { word: "pollution", emoji: "🏭", phonetic: "/pəˈluːʃn/", definition: "污染", example: "Air pollution is a major problem in many industrial cities.", category: "basic" };
+export const word_popular: Word = { word: "popular", emoji: "🔥", phonetic: "/ˈpɒpjələr/", definition: "受欢迎的；流行的", example: "The song quickly became popular among teenagers.", category: "basic" };
+export const word_positive: Word = { word: "positive", emoji: "➕", phonetic: "/ˈpɒzətɪv/", definition: "积极的", example: "A positive attitude can help you achieve your goals.", category: "basic" };
+export const word_practical: Word = { word: "practical", emoji: "🛠️", phonetic: "/ˈpræktɪkl/", definition: "实际的；实用的", example: "We need a practical solution to this problem.", category: "advanced" };
+export const word_pressure: Word = { word: "pressure", emoji: "🏋️", phonetic: "/ˈpreʃər/", definition: "压力", example: "Students are under a lot of pressure to perform well.", category: "basic" };
+export const word_prestigious: Word = { word: "prestigious", emoji: "🏛️", phonetic: "/preˈstɪdʒəs/", definition: "享有声望的", example: "Winning an Oscar is the most prestigious honor in film.", category: "advanced" };
+export const word_privacy: Word = { word: "privacy", emoji: "🔒", phonetic: "/ˈpraɪvəsi/", definition: "隐私", example: "Celebrities often struggle to maintain their privacy.", category: "basic" };
+export const word_promotion: Word = { word: "promotion", emoji: "📈", phonetic: "/prəˈmoʊʃn/", definition: "晋升", example: "She worked hard and earned a promotion to manager." };
+export const word_pros: Word = { word: "pros", emoji: "➕", phonetic: "/proʊz/", definition: "优点；赞成论点", example: "We need to weigh the pros and cons of the new proposal.", category: "basic" };
+export const word_put_on_a_show: Word = { word: "put on a show", emoji: "🎭", phonetic: "/pʊt ɒn ə ʃoʊ/", definition: "表演；上演", example: "The school students put on a show to raise money for charity.", category: "advanced" };

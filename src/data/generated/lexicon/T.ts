@@ -1,0 +1,21 @@
+import type { Word } from '../../../types';
+
+export const word_tabloid: Word = { word: "tabloid", emoji: "🗞️", phonetic: "/ˈtæblɔɪd/", definition: "通俗小报", example: "Tabloids are often criticized for spreading rumors.", category: "advanced" };
+export const word_take_up: Word = { word: "take up", emoji: "📈", phonetic: "/teɪk ʌp/", definition: "占用", example: "Landfills take up a lot of valuable land resources.", category: "basic" };
+export const word_talent: Word = { word: "talent", emoji: "✨", phonetic: "/ˈtælənt/", definition: "天赋；才能", example: "She has a great talent for music.", category: "advanced" };
+export const word_talented: Word = { word: "talented", emoji: "🌟", phonetic: "/ˈtæləntɪd/", definition: "有才能的；多才多艺的", example: "She is a very talented painter.", category: "advanced" };
+export const word_tax: Word = { word: "tax", emoji: "💰", phonetic: "/tæks/", definition: "税", example: "The government might impose a tax on plastic bags.", category: "basic" };
+export const word_teamwork: Word = { word: "teamwork", emoji: "🧑‍🤝‍🧑", phonetic: "/ˈtiːmwɜːrk/", definition: "团队合作", example: "Teamwork is essential for the success of this project." };
+export const word_the_cost_of: Word = { word: "the cost of", emoji: "💰", phonetic: "/ðə kɒst əv/", definition: "...的成本", example: "The cost of waste disposal is increasing every year.", category: "basic" };
+export const word_thrill: Word = { word: "thrill", emoji: "🎢", phonetic: "/θrɪl/", definition: "刺激；兴奋感", example: "Some people enjoy the thrill of extreme sports.", category: "advanced" };
+export const word_time_limit: Word = { word: "time limit", emoji: "⏳", phonetic: "/taɪm ˈlɪmɪt/", definition: "时间限制", example: "There is a 30-minute time limit for the writing task.", category: "basic" };
+export const word_time_management: Word = { word: "time management", emoji: "⏳", phonetic: "/taɪm ˈmænɪdʒmənt/", definition: "时间管理", example: "Good time management skills are essential for success in university.", category: "basic" };
+export const word_to_sum_up: Word = { word: "to sum up", emoji: "🔚", phonetic: "/tu sʌm ʌp/", definition: "（衔接词）总而言之；综上所述", example: "To sum up, everyone has a role to play in environmental protection.", category: "basic" };
+export const word_todo_list: Word = { word: "to-do list", emoji: "📝", phonetic: "/tuː duː lɪst/", definition: "待办事项清单", example: "I check my to-do list every morning to prioritize tasks.", category: "basic" };
+export const word_tournament: Word = { word: "tournament", emoji: "🏆", phonetic: "/ˈtʊrnəmənt/", definition: "锦标赛", example: "Teams from all over the world compete in the tournament." };
+export const word_trail: Word = { word: "trail", emoji: "🌲", phonetic: "/treɪl/", definition: "小径；步道", example: "The trail through the forest is safe and well-marked.", category: "basic" };
+export const word_trainers: Word = { word: "trainers", emoji: "👟", phonetic: "/ˈtreɪnərz/", definition: "(英式)运动鞋", example: "He bought a new pair of trainers for playing basketball." };
+export const word_tunnel: Word = { word: "tunnel", emoji: "🚇", phonetic: "/ˈtʌnl/", definition: "隧道", example: "The train goes through a long tunnel under the mountain." };
+export const word_tutor: Word = { word: "tutor", emoji: "🧑‍🏫", phonetic: "/ˈtuːtər/", definition: "导师；家庭教师", example: "My parents hired a tutor to help me with my math.", category: "basic" };
+export const word_tutorial: Word = { word: "tutorial", emoji: "💻", phonetic: "/tuːˈtɔːriəl/", definition: "教程；辅导课", example: "I watched an online tutorial to learn the software.", category: "advanced" };
+export const word_tutorial_class: Word = { word: "tutorial class", emoji: "📖", phonetic: "/tuːˈtɔːriəl klæs/", definition: "补习班；辅导课", example: "Many students attend tutorial classes after school.", category: "basic" };
