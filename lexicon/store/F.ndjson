@@ -10,4 +10,5 @@
 {"id":"word_focus","word":"focus","phonetic":"/ˈfoʊkəs/","definition":"集中注意力","example":"It's hard to focus on my studies with all this noise.","emoji":"🎯","category":"basic"}
 {"id":"word_for_example","word":"For example","phonetic":"/fɔːr ɪɡˈzæmpl/","definition":"（衔接词）例如；比如说","example":"Many countries, for example Sweden, have a high recycling rate.","emoji":"👉","category":"basic"}
 {"id":"word_for_instance","word":"For instance","phonetic":"/fɔːr ˈɪnstəns/","definition":"（衔接词）例如；举例来说","example":"Some hobbies are very relaxing. For instance, I enjoy painting.","emoji":"👉","category":"basic"}
+{"id":"word_fossil_fuels","word":"fossil fuels","emoji":"🛢️","phonetic":"/ˈfɒsl fjuːlz/","definition":"化石燃料","example":"Burning fossil fuels releases greenhouse gases into the air.","category":"advanced"}
 {"id":"word_frequently","word":"frequently","phonetic":"/ˈfriːkwəntli/","definition":"频繁地","example":"This problem occurs frequently during the winter.","emoji":"📉","category":"basic"}

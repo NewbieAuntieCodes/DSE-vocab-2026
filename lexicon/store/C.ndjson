@@ -1,10 +1,12 @@
 {"id":"word_capture_attention","word":"capture attention","emoji":"👀","phonetic":"/ˈkæptʃər əˈtenʃn/","definition":"吸引注意力","example":"A strong opening can capture the examiner's attention.","category":"advanced"}
+{"id":"word_carbon_emissions","word":"carbon emissions","emoji":"🏭💨","phonetic":"/ˈkɑːbən ɪˈmɪʃnz/","definition":"碳排放","example":"We need to reduce carbon emissions to slow down climate change.","category":"advanced"}
 {"id":"word_career","word":"career","phonetic":"/kəˈrɪər/","definition":"职业；生涯","example":"He is focused on building a successful career in finance.","emoji":"🚀"}
 {"id":"word_catch","word":"catch","phonetic":"/kætʃ/","definition":"接住","example":"The player made an amazing catch to save the game.","emoji":"⚾"}
 {"id":"word_catch_up","word":"catch up","emoji":"☕️","phonetic":"/kætʃ ʌp/","definition":"叙旧；了解近况","example":"Let's meet for coffee and catch up.","category":"basic"}
 {"id":"word_celebrity","word":"celebrity","phonetic":"/səˈlebrəti/","definition":"名人","example":"Many young people dream of becoming a celebrity.","emoji":"🌟","category":"basic"}
 {"id":"word_charging_station","word":"charging station","phonetic":"/ˈtʃɑːrdʒɪŋ ˈsteɪʃn/","definition":"充电站","example":"More charging stations are needed to support the growing number of electric vehicles.","emoji":"🔌","category":"basic"}
 {"id":"word_chat_with","word":"chat with","phonetic":"/tʃæt wɪð/","definition":"与...聊天","example":"I like to chat with my friends online in the evening.","emoji":"💬"}
+{"id":"word_climate_change","word":"climate change","emoji":"🌍🔥","phonetic":"/ˈklaɪmət tʃeɪndʒ/","definition":"气候变化","example":"Climate change is affecting extreme weather around the world.","category":"advanced"}
 {"id":"word_closer","word":"closer","phonetic":"/ˈkloʊsər/","definition":"更亲近的","example":"Sharing experiences can bring people closer together.","emoji":"🤗"}
 {"id":"word_collaborate","word":"collaborate","phonetic":"/kəˈlæbəreɪt/","definition":"合作","example":"The two companies will collaborate on the new project.","emoji":"🤝"}
 {"id":"word_colleague","word":"colleague","phonetic":"/ˈkɒliːɡ/","definition":"同事","example":"I get along well with all of my colleagues at work.","emoji":"👥"}
@@ -22,8 +24,10 @@
 {"id":"word_could_you_explain","word":"Could you explain","phonetic":"/kʊd ju ɪkˈspleɪn/","definition":"（请求解释）你能解释一下吗","example":"Could you explain what you mean by that?","emoji":"❓","category":"basic"}
 {"id":"word_countryside","word":"countryside","emoji":"🌾","phonetic":"/ˈkʌntrisaɪd/","definition":"乡村；农村地区","example":"I love the peaceful countryside far away from the city.","category":"basic"}
 {"id":"word_crawl","word":"crawl","phonetic":"/krɔːl/","definition":"爬行","example":"He had to crawl through the tunnel.","emoji":"👶"}
+{"id":"word_crisis","word":"crisis","emoji":"🚨","phonetic":"/ˈkraɪsɪs/","definition":"危机","example":"Plastic pollution has become a global crisis.","category":"advanced"}
 {"id":"word_crossroad","word":"crossroad","phonetic":"/ˈkrɒsroʊd/","definition":"十字路口","example":"Be careful when you are at a busy crossroad.","emoji":"🚦"}
 {"id":"word_crosswalk","word":"crosswalk","phonetic":"/ˈkrɒswɔːk/","definition":"人行横道","example":"Always use the crosswalk to cross the street safely.","emoji":"🚶"}
+{"id":"word_curb","word":"curb","emoji":"🛑","phonetic":"/kɜːrb/","definition":"遏制；抑制（动词）","example":"The city introduced new rules to curb plastic usage.","category":"advanced"}
 {"id":"word_curiosity","word":"curiosity","phonetic":"/ˌkjʊərɪˈɒsɪti/","definition":"好奇心","example":"A sense of curiosity is essential for learning.","emoji":"🤔","category":"advanced"}
 {"id":"word_cut_down","word":"cut down","phonetic":"/kʌt daʊn/","definition":"削减；砍伐","example":"We need to cut down on the amount of waste we produce.","emoji":"🌳🪓","category":"basic"}
 {"id":"word_cycling","word":"cycling","emoji":"🚴‍♂️","phonetic":"/ˈsaɪklɪŋ/","definition":"骑自行车（运动）","example":"Cycling is a healthy and eco-friendly way to travel.","category":"basic"}

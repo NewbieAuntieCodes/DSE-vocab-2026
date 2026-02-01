@@ -6,6 +6,7 @@
 {"id":"word_teamwork","word":"teamwork","phonetic":"/ˈtiːmwɜːrk/","definition":"团队合作","example":"Teamwork is essential for the success of this project.","emoji":"🧑‍🤝‍🧑"}
 {"id":"word_the_cost_of","word":"the cost of","phonetic":"/ðə kɒst əv/","definition":"...的成本","example":"The cost of waste disposal is increasing every year.","emoji":"💰","category":"basic"}
 {"id":"word_thrill","word":"thrill","emoji":"🎢","phonetic":"/θrɪl/","definition":"刺激；兴奋感","example":"Some people enjoy the thrill of extreme sports.","category":"advanced"}
+{"id":"word_throw_away","word":"throw away","emoji":"🗑️","phonetic":"/θroʊ əˈweɪ/","definition":"扔掉；丢弃","example":"Don't throw away recyclable bottles — put them in the right bin.","category":"basic"}
 {"id":"word_time_limit","word":"time limit","phonetic":"/taɪm ˈlɪmɪt/","definition":"时间限制","example":"There is a 30-minute time limit for the writing task.","emoji":"⏳","category":"basic"}
 {"id":"word_time_management","word":"time management","phonetic":"/taɪm ˈmænɪdʒmənt/","definition":"时间管理","example":"Good time management skills are essential for success in university.","emoji":"⏳","category":"basic"}
 {"id":"word_to_sum_up","word":"to sum up","phonetic":"/tu sʌm ʌp/","definition":"（衔接词）总而言之；综上所述","example":"To sum up, everyone has a role to play in environmental protection.","emoji":"🔚","category":"basic"}

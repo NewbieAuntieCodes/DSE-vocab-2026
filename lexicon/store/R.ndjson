@@ -19,6 +19,9 @@
 {"id":"word_relieve_stress","word":"relieve stress","phonetic":"/rɪˈliːv stres/","definition":"缓解压力","example":"Listening to music is a great way to relieve stress.","emoji":"😌","category":"basic"}
 {"id":"word_renewable","word":"renewable","phonetic":"/rɪˈnuːəbl/","definition":"可再生的","example":"Solar power is a form of renewable energy.","emoji":"☀️","category":"advanced"}
 {"id":"word_renewable_energy","word":"renewable energy","phonetic":"/rɪˈnuːəbl ˈenərdʒi/","definition":"可再生能源","example":"Investing in renewable energy sources like solar and wind is essential for the future.","emoji":"☀️🌬️","category":"advanced"}
+{"id":"word_renewable_energy_sources","word":"renewable energy sources","emoji":"☀️🌬️","phonetic":"/rɪˈnuːəbl ˈenədʒi ˈsɔːrsɪz/","definition":"可再生能源来源","example":"Solar and wind are renewable energy sources.","category":"advanced"}
+{"id":"word_resent","word":"resent","emoji":"😠","phonetic":"/rɪˈzent/","definition":"怨恨；讨厌","example":"Some people resent the bag levy because they think it is inconvenient.","category":"advanced"}
+{"id":"word_respiratory","word":"respiratory","emoji":"🫁","phonetic":"/ˈrespərətɔːri/","definition":"呼吸系统的","example":"Smog can cause respiratory problems and coughing.","category":"advanced"}
 {"id":"word_reunion","word":"reunion","phonetic":"/ˌriːˈjuːniən/","definition":"团聚；重聚","example":"We are planning a family reunion next summer.","emoji":"🤝","category":"basic"}
 {"id":"word_reuse","word":"reuse","phonetic":"/ˌriːˈjuːz/","definition":"重复使用 (动词)","example":"You can reuse glass jars for storing food.","emoji":"🔄","category":"basic"}
 {"id":"word_reusing","word":"reusing","phonetic":"/ˌriːˈjuːzɪŋ/","definition":"重复使用 (名词)","example":"Reusing shopping bags is an easy way to reduce waste.","emoji":"🔄","category":"basic"}
@@ -27,5 +30,7 @@
 {"id":"word_rock_climbing","word":"rock climbing","emoji":"🧗‍♀️","phonetic":"/rɒk ˈklaɪmɪŋ/","definition":"攀岩","example":"Rock climbing is a great way to build strength and confidence.","category":"basic"}
 {"id":"word_role_model","word":"role model","phonetic":"/ˈroʊl ˌmɒdl/","definition":"榜样","example":"Many athletes are positive role models for young people.","emoji":"🌟"}
 {"id":"word_routine","word":"routine","emoji":"📋","phonetic":"/ruːˈtiːn/","definition":"常规；例行公事","example":"My morning routine includes jogging and a healthy breakfast.","category":"basic"}
+{"id":"word_rubbish","word":"rubbish","emoji":"🗑️","phonetic":"/ˈrʌbɪʃ/","definition":"垃圾","example":"Please take your rubbish home after the picnic.","category":"basic"}
+{"id":"word_rubbish_free","word":"rubbish-free","emoji":"🏖️✨","phonetic":"/ˈrʌbɪʃ friː/","definition":"无垃圾的","example":"The campaign aims to make beaches rubbish-free.","category":"basic"}
 {"id":"word_run_out","word":"run out","phonetic":"/rʌn aʊt/","definition":"用完；耗尽","example":"We are in danger of running out of natural resources.","emoji":"⛽️❌","category":"basic"}
 {"id":"word_running_shoes","word":"running shoes","phonetic":"/ˈrʌnɪŋ ʃuːz/","definition":"跑鞋","example":"A pair of running shoes is important to prevent injuries.","emoji":"👟"}

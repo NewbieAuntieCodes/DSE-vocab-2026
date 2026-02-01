@@ -1,7 +1,9 @@
 import type { Word } from '../../../types';
 
+export const word_bag_levy: Word = { word: "bag levy", emoji: "🛍️💰", phonetic: "/bæɡ ˈlevi/", definition: "购物袋征费", example: "The bag levy has helped cut down the number of plastic bags used.", category: "advanced" };
 export const word_ban: Word = { word: "ban", emoji: "🚫", phonetic: "/bæn/", definition: "禁止 (动词)", example: "The city decided to ban plastic bags to protect the environment.", category: "basic" };
 export const word_banning: Word = { word: "banning", emoji: "🚫", phonetic: "/ˈbænɪŋ/", definition: "禁止 (名词)", example: "The banning of certain pesticides has helped local wildlife recover.", category: "basic" };
+export const word_beach_waste: Word = { word: "beach waste", emoji: "🏖️🗑️", phonetic: "/biːtʃ weɪst/", definition: "海滩垃圾", example: "Beach waste can be washed into the sea and harm marine life.", category: "basic" };
 export const word_benefit_from: Word = { word: "benefit from", emoji: "📈", phonetic: "/ˈbenɪfɪt frəm/", definition: "受益于", example: "Students can benefit from participating in extracurricular activities.", category: "advanced" };
 export const word_bin_bags: Word = { word: "bin bags", emoji: "🗑️", phonetic: "/bɪn bæɡz/", definition: "垃圾袋", example: "We need to buy more bin bags for the kitchen.", category: "basic" };
 export const word_biodegrade: Word = { word: "biodegrade", emoji: "🌿", phonetic: "/ˌbaɪoʊdɪˈɡreɪd/", definition: "生物降解", example: "Products made from plant materials can biodegrade naturally.", category: "advanced" };

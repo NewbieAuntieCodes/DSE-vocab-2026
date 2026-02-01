@@ -1,12 +1,14 @@
 import type { Word } from '../../../types';
 
 export const word_capture_attention: Word = { word: "capture attention", emoji: "👀", phonetic: "/ˈkæptʃər əˈtenʃn/", definition: "吸引注意力", example: "A strong opening can capture the examiner's attention.", category: "advanced" };
+export const word_carbon_emissions: Word = { word: "carbon emissions", emoji: "🏭💨", phonetic: "/ˈkɑːbən ɪˈmɪʃnz/", definition: "碳排放", example: "We need to reduce carbon emissions to slow down climate change.", category: "advanced" };
 export const word_career: Word = { word: "career", emoji: "🚀", phonetic: "/kəˈrɪər/", definition: "职业；生涯", example: "He is focused on building a successful career in finance." };
 export const word_catch: Word = { word: "catch", emoji: "⚾", phonetic: "/kætʃ/", definition: "接住", example: "The player made an amazing catch to save the game." };
 export const word_catch_up: Word = { word: "catch up", emoji: "☕️", phonetic: "/kætʃ ʌp/", definition: "叙旧；了解近况", example: "Let's meet for coffee and catch up.", category: "basic" };
 export const word_celebrity: Word = { word: "celebrity", emoji: "🌟", phonetic: "/səˈlebrəti/", definition: "名人", example: "Many young people dream of becoming a celebrity.", category: "basic" };
 export const word_charging_station: Word = { word: "charging station", emoji: "🔌", phonetic: "/ˈtʃɑːrdʒɪŋ ˈsteɪʃn/", definition: "充电站", example: "More charging stations are needed to support the growing number of electric vehicles.", category: "basic" };
 export const word_chat_with: Word = { word: "chat with", emoji: "💬", phonetic: "/tʃæt wɪð/", definition: "与...聊天", example: "I like to chat with my friends online in the evening." };
+export const word_climate_change: Word = { word: "climate change", emoji: "🌍🔥", phonetic: "/ˈklaɪmət tʃeɪndʒ/", definition: "气候变化", example: "Climate change is affecting extreme weather around the world.", category: "advanced" };
 export const word_closer: Word = { word: "closer", emoji: "🤗", phonetic: "/ˈkloʊsər/", definition: "更亲近的", example: "Sharing experiences can bring people closer together." };
 export const word_collaborate: Word = { word: "collaborate", emoji: "🤝", phonetic: "/kəˈlæbəreɪt/", definition: "合作", example: "The two companies will collaborate on the new project." };
 export const word_colleague: Word = { word: "colleague", emoji: "👥", phonetic: "/ˈkɒliːɡ/", definition: "同事", example: "I get along well with all of my colleagues at work." };
@@ -24,8 +26,10 @@ export const word_copyright: Word = { word: "copyright", emoji: "©️", phoneti
 export const word_could_you_explain: Word = { word: "Could you explain", emoji: "❓", phonetic: "/kʊd ju ɪkˈspleɪn/", definition: "（请求解释）你能解释一下吗", example: "Could you explain what you mean by that?", category: "basic" };
 export const word_countryside: Word = { word: "countryside", emoji: "🌾", phonetic: "/ˈkʌntrisaɪd/", definition: "乡村；农村地区", example: "I love the peaceful countryside far away from the city.", category: "basic" };
 export const word_crawl: Word = { word: "crawl", emoji: "👶", phonetic: "/krɔːl/", definition: "爬行", example: "He had to crawl through the tunnel." };
+export const word_crisis: Word = { word: "crisis", emoji: "🚨", phonetic: "/ˈkraɪsɪs/", definition: "危机", example: "Plastic pollution has become a global crisis.", category: "advanced" };
 export const word_crossroad: Word = { word: "crossroad", emoji: "🚦", phonetic: "/ˈkrɒsroʊd/", definition: "十字路口", example: "Be careful when you are at a busy crossroad." };
 export const word_crosswalk: Word = { word: "crosswalk", emoji: "🚶", phonetic: "/ˈkrɒswɔːk/", definition: "人行横道", example: "Always use the crosswalk to cross the street safely." };
+export const word_curb: Word = { word: "curb", emoji: "🛑", phonetic: "/kɜːrb/", definition: "遏制；抑制（动词）", example: "The city introduced new rules to curb plastic usage.", category: "advanced" };
 export const word_curiosity: Word = { word: "curiosity", emoji: "🤔", phonetic: "/ˌkjʊərɪˈɒsɪti/", definition: "好奇心", example: "A sense of curiosity is essential for learning.", category: "advanced" };
 export const word_cut_down: Word = { word: "cut down", emoji: "🌳🪓", phonetic: "/kʌt daʊn/", definition: "削减；砍伐", example: "We need to cut down on the amount of waste we produce.", category: "basic" };
 export const word_cycling: Word = { word: "cycling", emoji: "🚴‍♂️", phonetic: "/ˈsaɪklɪŋ/", definition: "骑自行车（运动）", example: "Cycling is a healthy and eco-friendly way to travel.", category: "basic" };

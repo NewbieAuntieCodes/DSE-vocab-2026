@@ -1,6 +1,7 @@
 {"id":"word_scandal","word":"scandal","phonetic":"/ˈskændl/","definition":"丑闻","example":"The politician was forced to resign after the financial scandal.","emoji":"📉","category":"advanced"}
 {"id":"word_scenery","word":"scenery","emoji":"🏞️","phonetic":"/ˈsiːnəri/","definition":"风景；景色","example":"The scenery along the coast is amazing.","category":"advanced"}
 {"id":"word_schedule","word":"schedule","phonetic":"/ˈskedʒuːl/","definition":"日程表；计划","example":"What's your schedule for next week?","emoji":"🗓️","category":"basic"}
+{"id":"word_schemes","word":"schemes","emoji":"📋","phonetic":"/skiːmz/","definition":"计划；方案（复数）","example":"Recycling schemes encourage people to separate waste.","category":"advanced"}
 {"id":"word_score","word":"score","phonetic":"/skɔːr/","definition":"得分","example":"Our team needs to score another goal to win.","emoji":"🎯"}
 {"id":"word_scores","word":"scores","phonetic":"/skɔːrz/","definition":"分数","example":"The final scores for the exam will be posted tomorrow.","emoji":"💯","category":"basic"}
 {"id":"word_self_discipline","word":"self-discipline","phonetic":"/ˌselfˈdɪsəplɪn/","definition":"自律","example":"Becoming a professional athlete requires a lot of self-discipline.","emoji":"🧘"}
@@ -15,7 +16,9 @@
 {"id":"word_sociable","word":"sociable","phonetic":"/ˈsoʊʃəbl/","definition":"好交际的","example":"My friend is very sociable and loves parties.","emoji":"🎉"}
 {"id":"word_socialize","word":"socialize","phonetic":"/ˈsoʊʃəlaɪz/","definition":"参加社交活动；交际","example":"It's important to socialize with your colleagues outside of work.","emoji":"🗣️"}
 {"id":"word_solar_panels","word":"solar panels","phonetic":"/ˈsoʊlər ˈpænlz/","definition":"太阳能电池板","example":"Many homes now have solar panels on their roofs to generate electricity.","emoji":"☀️","category":"basic"}
+{"id":"word_solid_waste","word":"solid waste","emoji":"🧱🗑️","phonetic":"/ˈsɒlɪd weɪst/","definition":"固体废物","example":"Solid waste from households is often sent to landfills.","category":"advanced"}
 {"id":"word_spacious","word":"spacious","phonetic":"/ˈspeɪʃəs/","definition":"宽敞的","example":"The hotel room was spacious and comfortable.","emoji":"🏞️","category":"advanced"}
+{"id":"word_spill_over","word":"spill over","emoji":"🫗","phonetic":"/spɪl ˈoʊvər/","definition":"溢出；蔓延","example":"Rubbish can spill over if bins are too full.","category":"advanced"}
 {"id":"word_sports_competition","word":"sports competition","phonetic":"/spɔːrts ˌkɒmpəˈtɪʃn/","definition":"体育比赛","example":"She is training hard for the upcoming sports competition.","emoji":"🏆"}
 {"id":"word_sports_outfit","word":"sports outfit","phonetic":"/spɔːrts ˈaʊtfɪt/","definition":"运动服","example":"I need to buy a new sports outfit for my yoga class.","emoji":"👕"}
 {"id":"word_sports_uniform","word":"sports uniform","phonetic":"/spɔːrts ˈjuːnɪfɔːrm/","definition":"运动制服","example":"The whole team wore their new sports uniform.","emoji":"🎽"}
@@ -24,6 +27,7 @@
 {"id":"word_stay_fit","word":"stay fit","emoji":"💪","phonetic":"/steɪ fɪt/","definition":"保持健康；保持体形","example":"He goes running every morning to stay fit.","category":"basic"}
 {"id":"word_stay_in_touch","word":"stay in touch","phonetic":"/steɪ ɪn tʌtʃ/","definition":"保持联系","example":"Let's stay in touch after we graduate.","emoji":"📱","category":"basic"}
 {"id":"word_stay_organized","word":"stay organized","phonetic":"/steɪ ˈɔːrɡənaɪzd/","definition":"保持井井有条","example":"Using a planner helps me stay organized during exams.","emoji":"📂","category":"advanced"}
+{"id":"word_stock_up","word":"stock up","emoji":"🛒","phonetic":"/stɒk ʌp/","definition":"囤货；储备","example":"Many people stock up on bottled water before a typhoon.","category":"basic"}
 {"id":"word_stomach","word":"stomach","phonetic":"/ˈstʌmək/","definition":"胃","example":"He had a pain in his stomach after eating the spicy food.","emoji":"🤢"}
 {"id":"word_stomachache","word":"stomachache","phonetic":"/ˈstʌməkeɪk/","definition":"胃痛","example":"I have a terrible stomachache.","emoji":"😫"}
 {"id":"word_storage","word":"storage","phonetic":"/ˈstɔːrɪdʒ/","definition":"存储；仓库","example":"We need to find more storage space for our books.","emoji":"📦","category":"basic"}
@@ -39,3 +43,5 @@
 {"id":"word_suburb","word":"suburb","phonetic":"/ˈsʌbɜːrb/","definition":"郊区","example":"Many families prefer to live in the suburbs where it's quieter.","emoji":"🏡"}
 {"id":"word_sum_up","word":"sum up","phonetic":"/sʌm ʌp/","definition":"（动词短语）总结；归纳","example":"Let me sum up the main points.","emoji":"✍️","category":"basic"}
 {"id":"word_summarize","word":"summarize","phonetic":"/ˈsʌməraɪz/","definition":"（正式动词）概述；概括","example":"Could you summarize the main points of the meeting?","emoji":"📝","category":"advanced"}
+{"id":"word_survey","word":"survey","emoji":"📊","phonetic":"/ˈsɜːrveɪ/","definition":"调查","example":"A recent survey shows that people want less plastic packaging.","category":"basic"}
+{"id":"word_switch_to","word":"switch to","emoji":"🔁","phonetic":"/swɪtʃ tuː/","definition":"转用；改用","example":"Many people are switching to reusable bottles to reduce waste.","category":"basic"}

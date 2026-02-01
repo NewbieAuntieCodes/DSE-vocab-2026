@@ -2,7 +2,9 @@ import type { Word } from '../../../types';
 
 export const word_mainstream: Word = { word: "mainstream", emoji: "🌊", phonetic: "/ˈmeɪnstriːm/", definition: "主流的", example: "Independent music is slowly becoming more mainstream.", category: "advanced" };
 export const word_maintain: Word = { word: "maintain", emoji: "🛠️", phonetic: "/meɪnˈteɪn/", definition: "维持；保持", example: "It's important to maintain a healthy weight." };
+export const word_make_up_to: Word = { word: "make up to", emoji: "➗", phonetic: "/meɪk ʌp tuː/", definition: "（比例/数量）可高达；可占到", example: "Food waste can make up to one third of household rubbish.", category: "advanced" };
 export const word_manage_time: Word = { word: "manage time", emoji: "⏰", phonetic: "/ˈmænɪdʒ taɪm/", definition: "管理时间", example: "It is important for students to learn how to manage their time effectively.", category: "basic" };
+export const word_mandatory: Word = { word: "mandatory", emoji: "📌", phonetic: "/ˈmændətɔːri/", definition: "强制性的；义务的", example: "Some people think it should be mandatory to charge for plastic bags.", category: "advanced" };
 export const word_mature: Word = { word: "mature", emoji: "🌳", phonetic: "/məˈtʃʊər/", definition: "成熟的", example: "She is very mature for her age.", category: "advanced" };
 export const word_maturity: Word = { word: "maturity", emoji: "🌳", phonetic: "/məˈtʃʊərəti/", definition: "成熟", example: "He showed great maturity in dealing with the situation.", category: "advanced" };
 export const word_medal: Word = { word: "medal", emoji: "🏅", phonetic: "/ˈmedl/", definition: "奖牌", example: "He won a gold medal in the competition.", category: "basic" };
